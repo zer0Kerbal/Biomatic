@@ -1,0 +1,5 @@
+Biomatic (Biome sensor) for Kerbal Space Program
+
+Copyright Matt Reed, 2014
+
+Licenced under GPL 3, text at http://www.gnu.org/licenses/gpl.txt
