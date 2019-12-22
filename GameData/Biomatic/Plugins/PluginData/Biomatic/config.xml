@@ -1,19 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
     <rect name="Window Position">
-        <xmin>832.5</xmin>
-        <xmax>1087.5</xmax>
-        <ymin>510.5</ymin>
-        <ymax>569.5</ymax>
+        <xmin>887.5</xmin>
+        <xmax>1142.5</xmax>
+        <ymin>20.5</ymin>
+        <ymax>79.5</ymax>
     </rect>
-    <int name="List items">0</int>
-    <bool name="DeWarp">0</bool>
+    <int name="List items">10</int>
+    <string name="Item0">Landed.Kerbin.Shores.63775cad-3263-4288-ae48-be3ae914bd3d</string>
+    <string name="Item1">Landed.Kerbin.Grasslands.63775cad-3263-4288-ae48-be3ae914bd3d</string>
+    <string name="Item2">Landed.Kerbin.Highlands.63775cad-3263-4288-ae48-be3ae914bd3d</string>
+    <string name="Item3">High above.Kerbin.Shores.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item4">High above.Kerbin.Mountains.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item5">High above.Kerbin.Highlands.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item6">High above.Kerbin.Grasslands.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item7">High above.Kerbin.Deserts.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item8">High above.Kerbin.Water.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <string name="Item9">High above.Kerbin.Badlands.19a64684-d5c8-4ab6-a1f0-0064786f521e</string>
+    <bool name="DeWarp">1</bool>
     <bool name="Use altitude">0</bool>
     <bool name="Show description">0</bool>
-    <string name="Toolbar">stock</string>
-    <bool name="Instant dewarp">0</bool>
+    <string name="Toolbar">blizzy</string>
+    <bool name="Instant dewarp">1</bool>
     <string name="OnOff">On</string>
     <bool name="Show recent">0</bool>
-    <string name="Sound">0</string>
-    <bool name="Per vessel">0</bool>
+    <string name="Sound">1</string>
+    <bool name="Per vessel">1</bool>
 </config>

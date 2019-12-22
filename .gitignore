@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+Source\.vs\*
+*.vcxproj*
+\Source\.vs\Biomatic\v16\
+Source/.vs/Biomatic/v16/.suo
+*.db
+*.opendb
+*.log
+*.lastbuildstate
