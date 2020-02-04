@@ -42,3 +42,6 @@ Source/.vs/Biomatic/v16/.suo
 bin/
 obj/
 .vs/
+*.7z
+*.7z
+*.zip

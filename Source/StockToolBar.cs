@@ -1,179 +1,140 @@
 ﻿using System.IO;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
 using UnityEngine;
 using KSP.UI.Screens;
-using ToolbarControl_NS;
 
-namespace Proximity
+namespace Biomatic
 {
     [KSPAddon(KSPAddon.Startup.Flight, true)]
     public class StockToolbar : MonoBehaviour
     {
-        internal static StockToolbar Instance;
+        private static Texture2D shownOnButton;
+        private static Texture2D shownOffButton;
+        private static Texture2D hiddenOnButton;
+        private static Texture2D hiddenOffButton;
+        private static Texture2D unavailableButton;
 
-        ToolbarControl toolbarControl = null;
-        
+        private ApplicationLauncherButton stockToolbarBtn;
+
+        private bool buttonNeeded = false;
         public bool ButtonNeeded
         {
-            get;
-            set;
+            get { return buttonNeeded; }
+            set { buttonNeeded = value; }
         }
-
-        const string ShownOnButton = "ProximityGreyOn";
-        const string ShownOffButton = "ProximityGreyOff";
-        const string HiddenOnButton = "ProximityColourOn";
-        const string HiddenOffButton = "ProximityColourOff";
-        const string UnavailableButton = "ProximityUnavailable";
 
         void Start()
         {
-            Instance = this;
+            if (Biomatic.UseStockToolBar)
+            {
+                Load(ref shownOnButton, "BiomaticGreyOn.png");
+                Load(ref shownOffButton, "BiomaticGreyOff.png");
+                Load(ref hiddenOnButton, "BiomaticColourOn.png");
+                Load(ref hiddenOffButton, "BiomaticColourOff.png");
+                Load(ref unavailableButton, "BiomaticUnavailable.png");
+
+                GameEvents.onGUIApplicationLauncherReady.Add(CreateButton);
+            }
             DontDestroyOnLoad(this);
         }
 
-        internal const string dataPath = "GameData/KSP_Proximity/PluginData/";
-        internal const string buttonDirPath = "KSP_Proximity/ToolbarIcons/";
-
-        string ButtonPath(string buttonName)
+        private void Load(ref Texture2D tex, string file)
         {
-            return Path.Combine(buttonDirPath, buttonName);
+            if (tex == null)
+            {
+                tex = new Texture2D(36, 36, TextureFormat.RGBA32, false);
+                tex.LoadImage(File.ReadAllBytes(Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), file)));
+            }
         }
 
         public void CreateButton()
         {
-            ButtonNeeded = Proximity.IsRelevant();
-            if (ButtonNeeded)
+            buttonNeeded = Biomatic.IsRelevant();
+            if (buttonNeeded)
             {
                 MakeButton();
             }
-            else if (toolbarControl != null)
+            else if (stockToolbarBtn != null)
             {
-                toolbarControl.buttonActive = false;
+                ApplicationLauncher.Instance.RemoveModApplication(stockToolbarBtn);
             }
         }
-
-        internal const string MODID = "Proximity_NS";
-        internal const string MODNAME = "Proximity";
 
         private void MakeButton()
         {
-            if (toolbarControl == null)
+            if (stockToolbarBtn != null)
             {
-                toolbarControl = gameObject.AddComponent<ToolbarControl>();
-                toolbarControl.AddToAllToolbars(ProximityHide, ProximityShow,
-                    ApplicationLauncher.AppScenes.FLIGHT | ApplicationLauncher.AppScenes.MAPVIEW,
-                    MODID,
-                    "proximityButton",
-                    GetTextureName(38),
-                    GetTextureName(24),
-                    MODNAME
-                );
-                toolbarControl.AddLeftRightClickCallbacks(null, ToggleOnRightClick);
+                ApplicationLauncher.Instance.RemoveModApplication(stockToolbarBtn);
             }
-            toolbarControl.buttonActive = true;
-            if (!Proximity.ToolbarShowSettings)
+
+            stockToolbarBtn = ApplicationLauncher.Instance.AddModApplication(
+                BiomaticHide, BiomaticShow, null, null, null, null,
+                ApplicationLauncher.AppScenes.FLIGHT | ApplicationLauncher.AppScenes.MAPVIEW, GetTexture());
+
+            if (!Biomatic.ToolbarShowSettings)
             {
-                toolbarControl.SetTrue(false);
+                stockToolbarBtn.SetTrue(false);
             }
             else
             {
-                toolbarControl.SetFalse(false);
-            }
-
-        }
-        void ToggleOnRightClick()
-        {
-            if (FlightGlobals.ActiveVessel != null)
-            {
-                List<Proximity> prox = FlightGlobals.ActiveVessel.FindPartModulesImplementing<Proximity>();
-
-                if (prox != null && prox.Count > 0)
-                {
-                    Proximity p = prox.FirstOrDefault();
-                    if (p != null)
-                        p.ToggleSystemOn();
-                    return;
-                }
+                stockToolbarBtn.SetFalse(false);
             }
         }
 
         public void RefreshButtonTexture()
         {
-            if (toolbarControl != null)
+            if (stockToolbarBtn != null)
             {
-                toolbarControl.SetTexture(GetTextureName(38), GetTextureName(24));
+                stockToolbarBtn.SetTexture(GetTexture());
             }
         }
 
-        private void ProximityHide()
+        private void BiomaticHide()
         {
-            if (Proximity.ToolbarShowSettings)
+            if (Biomatic.ToolbarShowSettings)
             {
-                Proximity.ToolbarShowSettings = false;
+                Biomatic.ToolbarShowSettings = false;
                 RefreshButtonTexture();
             }
         }
 
-        private void ProximityShow()
+        private void BiomaticShow()
         {
-            if (!Proximity.ToolbarShowSettings)
+            if (!Biomatic.ToolbarShowSettings)
             {
-                Proximity.ToolbarShowSettings = true;
+                Biomatic.ToolbarShowSettings = true;
                 RefreshButtonTexture();
             }
         }
 
-        private string GetTextureName(int btnSize)
+        private Texture2D GetTexture()
         {
+            Texture2D tex;
+
             if (TechChecker.TechAvailable)
             {
-                switch (btnSize)
+                if (Biomatic.SystemOn)
                 {
-                    case 24:
-
-                        string path24 = buttonDirPath + "ProxS";
-
-                        path24 += Proximity.toolbarShowSettings ? "G" : "C";
-
-                        if (!Proximity.SystemOn)
-                        {
-                            path24 += "X";
-                        }
-                        return path24.Replace(@"\", "/");                    
-
-                    case 38:
-                        if (Proximity.SystemOn)
-                        {
-                            return (buttonDirPath + (Proximity.ToolbarShowSettings ? ShownOnButton : HiddenOnButton)).Replace(@"\", "/");
-                        }
-                        else
-                        {
-                            return (buttonDirPath + (Proximity.ToolbarShowSettings ? ShownOffButton : HiddenOffButton)).Replace(@"\", "/");
-                        }      
+                    tex = (Biomatic.ToolbarShowSettings ? shownOnButton : hiddenOnButton);
                 }
-                return "";
+                else
+                {
+                    tex = (Biomatic.ToolbarShowSettings ? shownOffButton : hiddenOffButton);
+                }
             }
             else
             {
-                switch (btnSize)
-                {
-                    case 24:
-                        return (buttonDirPath + "ProxSG2").Replace(@"\", "/");
-                    case 38:
-                        return (buttonDirPath + UnavailableButton).Replace(@"\", "/");
-                }
-                return "";
+                tex = unavailableButton;
             }
+
+            return tex;
         }
 
         private void OnDestroy()
         {
-            if (toolbarControl != null)
+            if (stockToolbarBtn != null)
             {
-                toolbarControl.OnDestroy();
-                Destroy(toolbarControl);
+                ApplicationLauncher.Instance.RemoveModApplication(stockToolbarBtn);
             }
         }
     }
