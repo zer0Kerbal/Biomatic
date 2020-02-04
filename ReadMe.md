@@ -9,7 +9,7 @@ updated: 03 Feb 2020 -->
 # Biomatic
 Biomatic <br>
 Localizations: 🇺🇸 <br>
-Simple resource sharing among landed vessels. <br>
+Simple biome identificaion, notification, tracking, and warp stopping. <br>
 adopted for curation by zer0Kerbal
 originally by @Biff_Space
 
