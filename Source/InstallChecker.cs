@@ -19,6 +19,7 @@ namespace Biomatic
     [KSPAddon(KSPAddon.Startup.MainMenu, true)]
     internal class InstallChecker : MonoBehaviour
     {
+        private const string MODNAME = "Biomatic";
         private const string FOLDERNAME = "Biomatic";
         private const string EXPECTEDPATH = FOLDERNAME + "/Plugins";
 
