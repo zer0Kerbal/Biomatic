@@ -32,9 +32,13 @@
 *.app
 Source\.vs\*
 *.vcxproj*
-\Source\.vs\Biomatic\v16\
+\Source\.vs\
 Source/.vs/Biomatic/v16/.suo
 *.db
 *.opendb
 *.log
 *.lastbuildstate
+*.rar
+bin/
+obj/
+.vs/
