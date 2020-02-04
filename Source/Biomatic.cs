@@ -355,6 +355,7 @@ namespace Biomatic
                         catch (Exception ex)
                         {
                             print("Biomatic - Draw() - DoBiomaticContent() threw " + ex.Message);
+                            Log.dbg("Biomatic - Draw() - DoBiomaticContent() threw " + ex.Message);
                         }
                     }
                     else
@@ -432,6 +433,7 @@ namespace Biomatic
             catch (Exception ex)
             {
                 print("Biomatic - OnWindow() - DoBiomaticContent() threw " + ex.Message);
+                Log.dbg("Biomatic - OnWindow() - DoBiomaticContent() threw " + ex.Message);
             }
 
             if (!handleClicked)
@@ -757,6 +759,8 @@ namespace Biomatic
             if (toolbarButton != null)
             {
                 toolbarButton.Destroy();
+                // added
+                toolbarButton = null;
             }
         }
 
@@ -875,6 +879,7 @@ namespace Biomatic
             catch (Exception ex)
             {
                 print("Biomatic - RemoveCurrentBody(): " + ex.Message);
+                Log.dbg("Biomatic - RemoveCurrentBody(): " + ex.Message);
             }
         }
 
@@ -903,6 +908,7 @@ namespace Biomatic
             catch (Exception ex)
             {
                 print("Biomatic - RemoveCurrentBiomeFromList(): " + ex.Message);
+                Log.dbg("Biomatic - RemoveCurrentBiomeFromList(): " + ex.Message);
             }
         }
 

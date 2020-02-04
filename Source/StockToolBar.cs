@@ -35,7 +35,7 @@ namespace Biomatic
 
                 GameEvents.onGUIApplicationLauncherReady.Add(CreateButton);
             }
-            DontDestroyOnLoad(this); 
+            DontDestroyOnLoad(this);
         }
 
         private void Load(ref Texture2D tex, string file)
