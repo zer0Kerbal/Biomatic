@@ -54,8 +54,13 @@ Biomatic, its associated files and the source code are all released under the GP
 
 ![Screenshot](https://i.imgur.com/TrdnPPU.jpg)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=D3lBi38pTjU
+" target="_blank"><img src="http://img.youtube.com/vi/D3lBi38pTjU/0.jpg" 
+alt="Biomatic in Action" width="240" height="180" border="10" /></a>
+
 ![YouTube](https://youtu.be/D3lBi38pTjU)
 
+<iframe width="935" height="527" src="https://www.youtube.com/embed/D3lBi38pTjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ### Original:
 - ![Biomatic biome identifier](https://forum.kerbalspaceprogram.com/index.php?/topic/80379-*)
 - ![SpaceDock](http://spacedock.info/mod/634)
