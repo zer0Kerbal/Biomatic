@@ -7,11 +7,8 @@ updated: 03 Feb 2020 -->
 <!-- Download on SpaceDock or Github or Curseforge. Also available on CKAN. -->
 
 # Biomatic
-Biomatic <br>
-Localizations: 🇺🇸 <br>
-Simple biome identificaion, notification, tracking, and warp stopping. <br>
-adopted for curation by zer0Kerbal
-originally by @Biff_Space
+## Simple biome identification, notification, tracking, and warp stopping. <br>
+*adopted for curation by zer0Kerbal - originally by @Biff_Space*
 
 ![Biomatic Version](https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases)
 ![KSP 1.8.x](https://img.shields.io/badge/KSP%20version-1.8.x-66ccff.svg?style=flat-square)
