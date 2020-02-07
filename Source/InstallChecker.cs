@@ -13,6 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using UnityEngine;
+using KSP.Localization;
 
 namespace Biomatic
 {
@@ -35,7 +36,7 @@ namespace Biomatic
                     new Vector2(0.5f, 0.5f),
                     new Vector2(0.5f, 0.5f),
                     "test",
-                    "Incorrect " + MODNAME + " Installation",
+                    Localizer.Format("#Biomatic_InstallChecker_title", MODNAME),//"Incorrect " +  + " Installation" 
                     MODNAME + " has been installed incorrectly and will not function properly. All files should be located in KSP/GameData/" + FOLDERNAME + ". Do not move any files from inside that folder.\n\nIncorrect path(s):\n" + String.Join("\n", badPaths.ToArray()),
                     "OK",
                     false,
