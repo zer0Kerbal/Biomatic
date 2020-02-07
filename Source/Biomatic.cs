@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using KSP.IO;
 using Biomatic.Extensions;
+using KSP.Localization;
 
 namespace Biomatic
 {
@@ -387,7 +388,7 @@ namespace Biomatic
                             sizechange = false;
                         }
 
-                        windowPos = GUILayout.Window(this.ClassID, windowPos, OnWindow, ConditionalShow ? "Biomatic" : "Biomatic settings", GUILayout.Width(fixedwidth));
+                        windowPos = GUILayout.Window(this.ClassID, windowPos, OnWindow, ConditionalShow ? Localizer.Format("#Biomatic_Window_title1") : Localizer.Format("#Biomatic_Window_title2"), GUILayout.Width(fixedwidth));//"Biomatic""Biomatic settings"
                         windowPos.width = fixedwidth;
 
                         if (windowPos.x == 0 && windowPos.y == 0)
@@ -573,7 +574,7 @@ namespace Biomatic
             else
             { 
                 styleTextArea.normal.textColor = Color.grey;
-                GUILayout.Label("----unpowered----", styleTextArea);
+                GUILayout.Label("----" + Localizer.Format("#Biomatic_Label_unpowered") + "----", styleTextArea);//unpowered
             }
             GUILayout.EndHorizontal();
         }
@@ -597,22 +598,22 @@ namespace Biomatic
             switch (sit)
             { 
                 case ExperimentSituations.FlyingHigh:
-                    result = "High flight";
+                    result = Localizer.Format("#Biomatic_Situation_FlyingHigh");//"High flight"
                     break;
                 case ExperimentSituations.FlyingLow:
-                    result = "Low flight";
+                    result = Localizer.Format("#Biomatic_Situation_FlyingLow");//"Low flight"
                     break;
                 case ExperimentSituations.InSpaceHigh:
-                    result = "High above";
+                    result = Localizer.Format("#Biomatic_Situation_InSpaceHigh");//"High above"
                     break;
                 case ExperimentSituations.InSpaceLow:
-                    result = "Just above";
+                    result = Localizer.Format("#Biomatic_Situation_InSpaceLow");//"Just above"
                     break;
                 case ExperimentSituations.SrfLanded:
-                    result = "Landed";
+                    result = Localizer.Format("#Biomatic_Situation_SrfLanded");//"Landed"
                     break;
                 case ExperimentSituations.SrfSplashed:
-                    result = "Splashed";
+                    result = Localizer.Format("#Biomatic_Situation_SrfSplashed");//"Splashed"
                     break;
             }
 
@@ -626,7 +627,7 @@ namespace Biomatic
             {
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
                 styleButton.normal.textColor = Color.white;
-                if (GUILayout.Button("Remove " + ActiveVessel.mainBody.name + " biomes from list", styleButton, GUILayout.ExpandWidth(true)))
+                if (GUILayout.Button(Localizer.Format("#Biomatic_Button_Remove", ActiveVessel.mainBody.bodyDisplayName), styleButton, GUILayout.ExpandWidth(true)))//"Remove " +  + " biomes from list"
                 {
                     RemoveCurrentBody();
                 }
@@ -635,7 +636,7 @@ namespace Biomatic
                 // de-warp
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
                 styleValue.normal.textColor = Color.white;
-                GUILayout.Label("De-warp ", styleValue);
+                GUILayout.Label(Localizer.Format("#Biomatic_Label_De_warp"), styleValue);//"De-warp "
                 if (GUILayout.Button(warpButtonText, styleButton, GUILayout.ExpandWidth(true)))
                 {
                     if (warpButtonText == "None")
@@ -661,18 +662,18 @@ namespace Biomatic
                 // sound
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
                 styleValue.normal.textColor = Color.white;
-                GUILayout.Label("Sound", styleValue);
-                string beepButtonText = "None";
+                GUILayout.Label(Localizer.Format("#Biomatic_Label_Sound"), styleValue);//"Sound"
+                string beepButtonText = Localizer.Format("#Biomatic_Generic_None");//"None"
                 switch (soundType)
                 {
                     case 1:
                         {
-                            beepButtonText = "Unticked Biome";
+                            beepButtonText = Localizer.Format("#Biomatic_Button_UntickedBiome");//"Unticked Biome"
                             break;
                         }
                     case 2:
                         {
-                            beepButtonText = "Any Biome";
+                            beepButtonText = Localizer.Format("#Biomatic_Button_AnyBiome");//"Any Biome"
                             break;
                         }
                 }
@@ -690,8 +691,8 @@ namespace Biomatic
                 // per vessel
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
                 styleValue.normal.textColor = Color.white;
-                GUILayout.Label("Biome list", styleValue);
-                string perVesselText = (perVessel ? "Per vessel" : "Global");
+                GUILayout.Label(Localizer.Format("#Biomatic_Label_Biomelist"), styleValue);//"Biome list"
+                string perVesselText = (perVessel ? Localizer.Format("#Biomatic_Button_Pervessel") : Localizer.Format("#Biomatic_Button_Global"));//"Per vessel""Global"
 
                 if (GUILayout.Button(perVesselText, styleButton, GUILayout.ExpandWidth(true)))
                 {
@@ -702,11 +703,11 @@ namespace Biomatic
                 //show hist
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
                 bool oldShowHistory = showHistory;
-                showHistory = GUILayout.Toggle(showHistory, " Recent", styleToggle, null);
+                showHistory = GUILayout.Toggle(showHistory, " " + Localizer.Format("#Biomatic_Button_Recent"), styleToggle, null);//Recent
 
                 // use altitude
                 bool oldIncludeAlt = includeAlt;
-                includeAlt = GUILayout.Toggle(includeAlt, " Altitude", styleToggle, null);
+                includeAlt = GUILayout.Toggle(includeAlt, " " + Localizer.Format("#Biomatic_Button_Altitude"), styleToggle, null);//Altitude
                 if (includeAlt != oldIncludeAlt)
                 {
                     sizechange = true;
@@ -714,7 +715,7 @@ namespace Biomatic
 
                 // show description
                 bool oldShowDescription = showDescription;
-                showDescription = GUILayout.Toggle(showDescription, " Description", styleToggle, null);
+                showDescription = GUILayout.Toggle(showDescription, " " + Localizer.Format("#Biomatic_Button_Description"), styleToggle, null);//Description
                 GUILayout.EndHorizontal();
                 if (showDescription != oldShowDescription || oldShowHistory != showHistory)
                 {
@@ -726,10 +727,10 @@ namespace Biomatic
 
                 // On / Off switch
                 GUILayout.BeginHorizontal(GUILayout.Width(fixedwidth - margin));
-                GUILayout.Label("Biomatic ", styleValue);
+                GUILayout.Label(Localizer.Format("#Biomatic_Window_title1") + " ", styleValue);//Biomatic
                 styleValue.normal.textColor = systemOn ? Color.green: Color.red;
-                GUILayout.Label(systemOn ? "ON ": "OFF ", styleValue);
-                if (GUILayout.Button(systemOn ? "Switch off": "Switch on", styleButton, GUILayout.ExpandWidth(true)))
+                GUILayout.Label(systemOn ? Localizer.Format("#Biomatic_Generic_ON") : Localizer.Format("#Biomatic_Generic_OFF"), styleValue);//"ON ""OFF "
+                if (GUILayout.Button(systemOn ? Localizer.Format("#Biomatic_Button_Switchoff") : Localizer.Format("#Biomatic_Button_Switchon"), styleButton, GUILayout.ExpandWidth(true)))//"Switch off""Switch on"
                 {
                     systemOn = !systemOn;
                     if (!useStockToolBar)
