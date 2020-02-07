@@ -123,7 +123,7 @@ namespace Biomatic
                         {
                             toolbarButton = new ToolbarButtonWrapper("Biomatic", "toolbarButton");
                             RefreshBlizzyButton();
-                            toolbarButton.ToolTip = "Biomatic settings";
+                            toolbarButton.ToolTip = Localizer.Format("#Biomatic_Window_title2");//"Biomatic settings"
                             toolbarButton.Visible = true;
                             toolbarButton.AddButtonClickHandler((e) =>
                             {
