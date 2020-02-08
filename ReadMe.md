@@ -11,7 +11,7 @@ updated: 03 Feb 2020 -->
 *adopted for curation by zer0Kerbal - originally by @Biff_Space*
 
 ![Biomatic Version](https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases)
-![KSP 1.8.x](https://img.shields.io/badge/KSP%20version-1.8.x-66ccff.svg?style=flat-square)
+![KSP 1.7.3](https://img.shields.io/badge/KSP%20version-1.7.3-66ccff.svg?style=flat-square)
 ![CKAN listed](https://img.shields.io/badge/CKAN-Indexed-brightgreen.svg)
 ![License GPLv3](https://img.shields.io/badge/SoftwareLicense-GPLv3-red)
 
@@ -72,13 +72,6 @@ Any comments and suggestions for improvements are welcome, as are reports of bug
 
 - Window now disappears with the rest of the UI on F2
 - If the part config file is edited to move the part to a different tech tree node, it will now behave sensibly rather than requiring 'spaceExploration' to be unlocked
-
-
-UPDATED (2016-05-02), v1.1.0.1
-
-- If Module Manager is used to add Biomatic functionality to command pods and probe cores, Biomatic is still unavailable until it has been researched
-- New look for stock buttons
-- Recompiled with KSP 1.1.2 binaries.
 
 ### Licence
 - ![GPLv3](https://www.gnu.org/graphics/gplv3-or-later-sm.png) [Software and Sourcecode Only License. This only covers the software and sourcecode. Original license.](https://www.gnu.org/licenses/gpl-3.0.html)
