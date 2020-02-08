@@ -47,3 +47,4 @@ obj/
 *.zip
  *.rar
 Doc/ *.bat *.markdown
+*.psd
