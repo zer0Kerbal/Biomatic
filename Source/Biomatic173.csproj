@@ -30,38 +30,59 @@
     <RootNamespace>Biomatic</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <!-- <Reference Include="Microsoft.CSharp" /> -->
-    <Reference Include="$(DevDir173)\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll">
-    </Reference>
+    <Reference Include="$(DevDir173)\GameData\000_Toolbar\Plugins\aaa_Toolbar.dll" />
+    <Reference Include="$(DevDir173)\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll" />
+    <Reference Include="$(DevDir173)\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp*.dll">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\*.dll">
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="$(DevDir173)\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll">
-      <Private>False</Private>
-    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript-firstpass.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Boo.Lang.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.CJK.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.MidEast.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Other.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Rare.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.West.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Ionic.Zip.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPAssets.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPTrackIR.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Cecil.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Security.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\mscorlib.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\TDx.TDxInput.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Analytics.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Networking.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Timeline.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.UI.dll" />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityScript.Lang.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Biomatic.cs" />
     <Compile Include="BiomaticExtensions.cs" />
     <Compile Include="BiomeSituation.cs" />
-    <Compile Include="InstallChecker.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Version.cs" />
-    <Compile Include="RectExtensions.cs" />
-    <Compile Include="StockToolBar.cs" />
-    <Compile Include="TechChecker.cs" />
+    <Compile Include="Properties\Version2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Version.tt</DependentUpon>
+    </Compile>
     <Compile Include="ToolbarWrapper.cs" />
+    <Compile Include="RegisterToolbar.cs" />
+    <Compile Include="RectExtensions.cs" />
+    <Compile Include="TechChecker.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="Utilities.cs" />
+    <Compile Include="StockToolBar.cs" />
+    <Compile Include="InstallChecker.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".vs\Biomatic\v16\.suo" />

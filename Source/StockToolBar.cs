@@ -2,6 +2,7 @@
 using System.Reflection;
 using UnityEngine;
 using KSP.UI.Screens;
+using ToolbarControl_NS;
 
 namespace Biomatic
 {
@@ -33,7 +34,7 @@ namespace Biomatic
                 Load(ref hiddenOffButton, "BiomaticColourOff.png");
                 Load(ref unavailableButton, "BiomaticUnavailable.png");
 
-                GameEvents.onGUIApplicationLauncherReady.Add(CreateButton);
+                //GameEvents.onGUIApplicationLauncherReady.Add(CreateButton);
             }
             DontDestroyOnLoad(this);
         }
