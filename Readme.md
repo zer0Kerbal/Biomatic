@@ -8,7 +8,7 @@ updated: 03 Feb 2020 -->
 # Biomatic
 ## Simple biome identification, notification, tracking, and warp stopping. <br>
 *adopted for curation by zer0Kerbal - originally by @Biff_Space*  
-.![Mod Version][shield:mod:latest] 
+![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License GPLv3][shield:license] ![][LOGO:gplv3]   
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
 ![Validate AVC .version files][shield:avcvalid]  
@@ -112,26 +112,26 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 
 ###### v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K
 
-[MOD:license]:      https://github.com/zer0Kerbal/ScrapYard/blob/master/LICENSE
-[MOD:contributing]: https://github.com/zer0Kerbal/ScrapYard/blob/master/.github/CONTRIBUTING.md
-[MOD:issues]:       https://github.com/zer0Kerbal/ScrapYard/issues
-[MOD:wiki]:         https://github.com/zer0Kerbal/ScrapYard/
-[MOD:known]:        https://github.com/zer0Kerbal/ScrapYard/wiki/Known-Issues
-[MOD:forum]:        https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
-[MOD:github:repo]:  https://github.com/zer0Kerbal/ScrapYard/
-[MOD:changelog]:    https://github.com/zer0Kerbal/ScrapYard/Changelog.cfg
+[MOD:license]:      https://github.com/zer0Kerbal/Biomatic/blob/master/LICENSE
+[MOD:contributing]: https://github.com/zer0Kerbal/Biomatic/blob/master/.github/CONTRIBUTING.md
+[MOD:issues]:       https://github.com/zer0Kerbal/Biomatic/issues
+[MOD:wiki]:         https://github.com/zer0Kerbal/Biomatic/
+[MOD:known]:        https://github.com/zer0Kerbal/Biomatic/wiki/Known-Issues
+[MOD:forum]:        https://forum.kerbalspaceprogram.com/index.php?/topic/191426-*
+[MOD:github:repo]:  https://github.com/zer0Kerbal/Biomatic/
+[MOD:changelog]:    https://github.com/zer0Kerbal/Biomatic/Changelog.cfg
 <!--- original mod stuff -->
-[MOD:original:source]: https://github.com/severedsolo/ScrapYard
-[MOD:original:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/178641-*
-[MOD:original:download]: https://github.com/severedsolo/ScrapYard/releases/latest
+[MOD:original:source]: http://spacedock.info/mod/634/Biomatic
+[MOD:original:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/80379-*
+[MOD:original:download]: http://spacedock.info/mod/634/Biomatic
 
 [KSP:website]: http://kerbalspaceprogram.com/
 [LOGO:mit]:    https://i.postimg.cc/bvjfsMP5/MIT-17x17.png
 [LOGO:gplv3]: https://i.postimg.cc/90kCDs7K/gplv3-48x17.png
 
-[MOD:rel-github]: https://github.com/zer0Kerbal/ScrapYard/releases/latest "GitHub"
-[MOD:rel-spacedock]: http://spacedock.info/mod/1746
-[MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/scrapyard
+[MOD:rel-github]: https://github.com/zer0Kerbal/Biomatic/releases/latest "GitHub"
+[MOD:rel-spacedock]: http://spacedock.info/mod/634
+[MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/biomatic
 [MOD:rel-ckan]: http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*
 
 [image:rel-github]:       https://i.imgur.com/RE4Ppr9.png
@@ -147,16 +147,16 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [image:rel-spacedock-sm]: https://i.postimg.cc/DZ22Hrhj/spacedock.png
 [image:rel-curseforge-sm]: https://i.postimg.cc/ZRVTSWKT/UVVt0OP.png
   
-[shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/ScrapYard?include_prereleases?style=plastic
-[shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/mod.json
-[shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/ksp.json
-[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/license.json
+[shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases?style=plastic
+[shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/mod.json
+[shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/ksp.json
+[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/license.json
 [shield:kspavc]:     https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic
 [shield:spacedock]:  https://img.shields.io/badge/SpaceDock-listed-blue.svg?style=plastic
 [shield:ckan]:       https://img.shields.io/badge/CKAN-Indexed-blue.svg?style=plastic
 [shield:github]:     https://img.shields.io/badge/Github-Indexed-blue.svg?style=plastic&logo=github
 [shield:curseforge]: https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic
-[shield:avcvalid]:    https://github.com/zer0Kerbal/ScrapYard/workflows/Validate%20AVC%20.version%20files/badge.svg
+[shield:avcvalid]:    https://github.com/zer0Kerbal/Biomatic/workflows/Validate%20AVC%20.version%20files/badge.svg
 
 <!-- zer0Kerbal mods -->
 [thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"
