@@ -2,7 +2,8 @@
 using System.Runtime.InteropServices;
 
 // using System.Runtime.CompilerServices;
-
+[assembly: KSPAssemblyDependency("ClickThroughBlocker", 1, 0)]
+[assembly: KSPAssemblyDependency("ToolbarController", 1, 0)]
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
@@ -14,7 +15,6 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCopyright("GPLv3")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("Neutral")]
-[assembly: KSPAssemblyDependency("ToolbarController", 1, 0)]
 
 // Setting ComVisible to false makes the types in this assembly not visible
 // to COM components.  If you need to access a type in this assembly from
@@ -37,7 +37,3 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyFileVersion(Biomatic.Version.Number)]
 // [assembly: AssemblyFileVersion("1.4.0.0")]
-
-
-[assembly: KSPAssemblyDependency("ClickThroughBlocker", 1, 0)]
-[assembly: KSPAssemblyDependency("ToolbarController", 1, 0)]

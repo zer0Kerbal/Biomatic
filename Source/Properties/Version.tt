@@ -1,4 +1,10 @@
-﻿<# /* This file is licensed under the Do What the F* You Want to Public License ( http://www.wtfpl.net )
+﻿<#
+/*
+   * Version.tt
+   * 1.1.0.0
+*/
+
+/* This file is licensed under the Do What the F* You Want to Public License ( http://www.wtfpl.net )
     * by LisiasT. http://ksp.lisias.net
     *
     * You are allowed to copy, modify and use this file unrestrictedly. :)
@@ -10,6 +16,9 @@
 <#@ output extension=".cs" #>
 <#@ import namespace="System.IO" #>
 <#
+	//
+	// Update the following with mod name as listed on the .version file
+	//
     string PROJECT_NAME = "Biomatic";
     int major = 0;
     int minor = 0;
