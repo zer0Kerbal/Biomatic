@@ -29,7 +29,7 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 
 ## Dependencies
 - [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions (YMMV)
-- [x] ***NEW*** [Toolbar Controller]: [thread:toolbarcontroller]
+- [x] ***NEW*** [Toolbar Controller][thread:toolbarcontroller]
 - [x] ***NEW*** [Click Through Blocker][thread:clickthroughblocker]
 
 ### Recommends
@@ -177,7 +177,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
 [thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
 [thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS):
+[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)
 [thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
 [thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
 [thread:NSSC:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
