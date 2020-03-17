@@ -35,5 +35,5 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 
-[assembly: AssemblyFileVersion(Biomatic.Version.Number)]
+// [assembly: AssemblyFileVersion(Biomatic.Version.Number)]
 // [assembly: AssemblyFileVersion("1.4.0.0")]

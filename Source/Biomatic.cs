@@ -6,6 +6,7 @@ using Biomatic.Extensions;
 using KSP.Localization;
 using ClickThroughFix;
 using KSP.UI.Screens;
+using ToolbarControl_NS;
 
 namespace Biomatic
 {
