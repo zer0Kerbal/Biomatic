@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
     <rect name="Window Position">
-        <xmin>1300.5</xmin>
-        <xmax>1555.5</xmax>
-        <ymin>102.5</ymin>
-        <ymax>297.5</ymax>
+        <xmin>0</xmin>
+        <xmax>255</xmax>
+        <ymin>0</ymin>
+        <ymax>400</ymax>
     </rect>
     <int name="List items">0</int>
     <bool name="DeWarp">0</bool>
