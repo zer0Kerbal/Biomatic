@@ -1,4 +1,4 @@
-# Prerequisites
+﻿# Prerequisites
 *.d
 
 # Compiled Object files
@@ -30,21 +30,62 @@
 *.exe
 *.out
 *.app
-Source\.vs\*
-*.vcxproj*
-\Source\.vs\
-Source/.vs/Biomatic/v16/.suo
-*.db
-*.opendb
-*.log
-*.lastbuildstate
+*.bat
+
+# Compressed
 *.rar
-bin/
-obj/
-.vs/
-*.7z
-*.7z
 *.zip
- *.rar
-Doc/ *.bat *.markdown
-*.psd
+*.7z
+*.tar
+
+# Documents
+*.markdown
+*.doc
+*.docx
+*.xls
+*.xlsx
+
+
+
+# zer0Kerbal common files
+LegalMumboJumbo/
+Archive/
+Old/
+flaticons/
+Links/
+docs/*
+old/*
+NetKAN/*
+images.txt
+shields.md
+buildRelease.bat
+buildReleaseSub.bat
+deploy.bat
+deploySub.bat
+_buildRelease.bat
+_buildReleaseSub.bat
+_deploy.bat
+_deploySub.bat
+mod.version
+regex4loc.txt
+
+# database files
+*.mdb
+*.lock
+*.ide
+*.pdb
+*.cache
+
+# visualStudio files
+.vs/*
+*.ide-wal
+*.suo
+build/*
+*.user
+_ReSharper.*/*
+obj/
+*.opensdf
+*.tlog
+*.log
+TestResult.xml
+

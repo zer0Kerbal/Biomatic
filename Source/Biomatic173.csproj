@@ -30,74 +30,118 @@
     <RootNamespace>Biomatic</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="$(DevDir173)\GameData\000_Toolbar\Plugins\aaa_Toolbar.dll" />
-    <Reference Include="$(DevDir173)\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll" />
-    <Reference Include="$(DevDir173)\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll" />
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data" />
+    <Reference Include="$(DevDir173)\GameData\000_Toolbar\Plugins\aaa_Toolbar.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\GameData\000_ClickThroughBlocker\Plugins\ClickThroughBlocker.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\GameData\001_ToolbarControl\Plugins\ToolbarControl.dll" >
+    </Reference>
+    <Reference Include="System"  />
+    <Reference Include="System.Core"  />
+    <Reference Include="System.Data"  />
     <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript-firstpass.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Boo.Lang.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.CJK.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.MidEast.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Other.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Rare.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.West.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Ionic.Zip.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPAssets.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPTrackIR.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Cecil.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Security.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\mscorlib.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\TDx.TDxInput.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Analytics.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Networking.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Timeline.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.UI.dll" />
-    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityScript.Lang.dll" />
+    <Reference Include="System.Xml"  />
+    <Reference Include="System.Xml.Linq"  />
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll">
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-CSharp.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript-firstpass.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Assembly-UnityScript.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Boo.Lang.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.CJK.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.MidEast.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Other.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.Rare.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\I18N.West.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Ionic.Zip.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPAssets.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\KSPTrackIR.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Cecil.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\Mono.Security.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\mscorlib.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\TDx.TDxInput.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Analytics.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Networking.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.Timeline.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityEngine.UI.dll" >
+    </Reference>
+    <Reference Include="$(DevDir173)\KSP_x64_Data\Managed\UnityScript.Lang.dll" >
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Biomatic.cs" />
-    <Compile Include="BiomaticExtensions.cs" />
-    <Compile Include="BiomeSituation.cs" />
+    <Compile Include="Biomatic.cs" >
+    </Reference>
+    <Compile Include="BiomaticExtensions.cs" >
+    </Reference>
+    <Compile Include="BiomeSituation.cs" >
+    </Reference>
     <Compile Include="Properties\Version2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Version.tt</DependentUpon>
     </Compile>
-    <Compile Include="ToolbarWrapper.cs" />
-    <Compile Include="RegisterToolbar.cs" />
-    <Compile Include="RectExtensions.cs" />
-    <Compile Include="TechChecker.cs" />
-    <Compile Include="Log.cs" />
-    <Compile Include="Utilities.cs" />
-    <Compile Include="StockToolBar.cs" />
-    <Compile Include="InstallChecker.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ToolbarWrapper.cs" >
+    </Reference>
+    <Compile Include="RegisterToolbar.cs" >
+    </Reference>
+    <Compile Include="RectExtensions.cs" >
+    </Reference>
+    <Compile Include="TechChecker.cs" >
+    </Reference>
+    <Compile Include="Log.cs" >
+    </Reference>
+    <Compile Include="Utilities.cs" >
+    </Reference>
+    <Compile Include="StockToolBar.cs" >
+    </Reference>
+    <Compile Include="InstallChecker.cs" >
+    </Reference>
+    <Compile Include="Properties\AssemblyInfo.cs" >
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".vs\Biomatic\v16\.suo" />
+    <None Include=".vs\Biomatic\v16\.suo" >
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Version.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Version2.cs</LastGenOutput>
+      <LastGenOutput>Version.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" >
+    </Reference>
   </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" >
+    </Reference>
   <ProjectExtensions>
-    <VisualStudio AllowExistingFolder="true" />
+    <VisualStudio AllowExistingFolder="true" >
+    </Reference>
   </ProjectExtensions>
 </Project>
