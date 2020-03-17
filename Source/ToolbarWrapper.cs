@@ -1,4 +1,5 @@
-﻿//
+﻿#if false
+//
 //  ToolbarWrapper.cs
 //
 //  Original Author:
@@ -287,3 +288,4 @@ internal class ToolbarButtonWrapper
 
 
 
+#endif

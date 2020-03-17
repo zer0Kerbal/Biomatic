@@ -37,3 +37,7 @@ using System.Runtime.InteropServices;
 
 [assembly: AssemblyFileVersion(Biomatic.Version.Number)]
 // [assembly: AssemblyFileVersion("1.4.0.0")]
+
+
+[assembly: KSPAssemblyDependency("ClickThroughBlocker", 1, 0)]
+[assembly: KSPAssemblyDependency("ToolbarController", 1, 0)]

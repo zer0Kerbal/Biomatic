@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿#if false
+using System.IO;
 using System.Reflection;
 using UnityEngine;
 using KSP.UI.Screens;
@@ -139,3 +140,4 @@ namespace Biomatic
         }
     }
 }
+#endif

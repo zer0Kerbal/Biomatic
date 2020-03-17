@@ -33,6 +33,7 @@
 Source\.vs\*
 *.vcxproj*
 \Source\.vs\
+Source/Biomatic.csproj
 Source/.vs/Biomatic/v16/.suo
 *.db
 *.opendb
