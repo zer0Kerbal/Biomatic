@@ -134,17 +134,17 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/biomatic
 [MOD:rel-ckan]: http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*
 
-[image:rel-github]:       https://i.imgur.com/RE4Ppr9.png
-[image:rel-spacedock]: https://i.imgur.com/m0a7tn2.png
+[image:rel-github]:     https://i.imgur.com/RE4Ppr9.png
+[image:rel-spacedock]:  https://i.imgur.com/m0a7tn2.png
 [image:rel-curseforge]: https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png
 [image:get-support]:    https://i.postimg.cc/vHP6zmrw/image.png
 
-[image:rel-ckan]:    https://i.postimg.cc/x8XSVg4R/sj507JC.png
+[image:rel-ckan]:  https://i.postimg.cc/x8XSVg4R/sj507JC.png
 [image:changelog]: https://i.postimg.cc/qM9p4V0C/changelog.png
-[image:source]:      https://i.postimg.cc/tJ8GqW0H/source.png
+[image:source]:    https://i.postimg.cc/tJ8GqW0H/source.png
 
-[image:rel-github-sm]:      https://i.postimg.cc/1XXy5yfD/github.png
-[image:rel-spacedock-sm]: https://i.postimg.cc/DZ22Hrhj/spacedock.png
+[image:rel-github-sm]:     https://i.postimg.cc/1XXy5yfD/github.png
+[image:rel-spacedock-sm]:  https://i.postimg.cc/DZ22Hrhj/spacedock.png
 [image:rel-curseforge-sm]: https://i.postimg.cc/ZRVTSWKT/UVVt0OP.png
   
 [shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases?style=plastic
@@ -177,7 +177,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
 [thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
 [thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)
+[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"
 [thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
 [thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
 [thread:NSSC:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
