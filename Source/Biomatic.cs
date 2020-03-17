@@ -4,7 +4,7 @@ using UnityEngine;
 using KSP.IO;
 using Biomatic.Extensions;
 using KSP.Localization;
-using ToolbarControl_NS;
+using ClickThroughFix;
 using KSP.UI.Screens;
 
 namespace Biomatic
@@ -489,7 +489,7 @@ namespace Biomatic
                             sizechange = false;
                         }
 
-                        windowPos = GUILayout.Window(this.ClassID, windowPos, OnWindow, ConditionalShow ? Localizer.Format("#Biomatic_Window_title1") : Localizer.Format("#Biomatic_Window_title2"), GUILayout.Width(fixedwidth));//"Biomatic""Biomatic settings"
+                        windowPos = ClickThruBlocker.GUILayoutWindow(this.ClassID, windowPos, OnWindow, ConditionalShow ? Localizer.Format("#Biomatic_Window_title1") : Localizer.Format("#Biomatic_Window_title2"), GUILayout.Width(fixedwidth));//"Biomatic""Biomatic settings"
                         windowPos.width = fixedwidth;
 
                         if (windowPos.x == 0 && windowPos.y == 0)

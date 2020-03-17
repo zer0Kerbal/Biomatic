@@ -1,4 +1,3 @@
-
 <!-- Readme.md v1.1.1.3
 Biomatic (BIO)
 created: 11 Aug 2018
@@ -8,18 +7,17 @@ updated: 03 Feb 2020 -->
 
 # Biomatic
 ## Simple biome identification, notification, tracking, and warp stopping. <br>
-*adopted for curation by zer0Kerbal - originally by @Biff_Space*
-
-![Biomatic Version](https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases)
-![KSP 1.7.3](https://img.shields.io/badge/KSP%20version-1.7.3-66ccff.svg?style=flat-square)
-![CKAN listed](https://img.shields.io/badge/CKAN-Indexed-brightgreen.svg)
-![License GPLv3](https://img.shields.io/badge/SoftwareLicense-GPLv3-red)
-
-![Biomatic](https://spacedock.info/content/BiffSpace_2144/Biomatic/Biomatic-1462190469.105298.jpg "Biomatic")
+*adopted for curation by zer0Kerbal - originally by @Biff_Space*  
+.![Mod Version][shield:mod:latest] 
+![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License GPLv3][shield:license] ![][LOGO:gplv3]   
+![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
+![Validate AVC .version files][shield:avcvalid]  
+***
+![Biomatic][IMG:hero:0]
 
 The Biomatic sensor identifies the biome that the ship is in / above, and shows the information in a small text window. Optionally the ship's situation (high / low space, high / low flight, landed, splashed) can be shown as well. Biomes where science has been done can be added to a list, which is used together with a kill warp option to de-warp the ship when entering an un-listed biome. The list of biomes can be per-vessel, or global.
 
-It is integrated with the stock toolbar by default, but can be configured to use blizzy's. (Change 'stock' to 'blizzy' in the config file).
+It is integrated with the stock toolbar by default, but can be configured to use blizzy's using [toolbar controller]
 
 ## The Biomatic Part
 
@@ -30,15 +28,15 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 - [OPTIONAL] makes Start the techRequired for the Biomatic part 
 
 ## Dependencies
- * [Kerbal Space Program](https://kerbalspaceprogram.com)
- * [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*)
+- [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions (YMMV)
+- [x] ***NEW*** [Toolbar Controller]: [thread:toolbarcontroller]
+- [x] ***NEW*** [Click Through Blocker][thread:clickthroughblocker]
 
 ### Recommends
- * [NEW] [ToolbarController](https://forum.kerbalspaceprogram.com/index.php?/topic/169509-*)
- * [NEW] [ClickThroughBlocker](https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*)
+- [x] [Module Manager][thread:mm]
+- [x] ***NEW*** [Toolbar][thread:toolbar]
 
 ### Suggests
- * [Toolbar (Blizzy's)](https://forum.kerbalspaceprogram.com/index.php?/topic/161857-*)
  * [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
  * [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
  * [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
@@ -91,14 +89,126 @@ alt="Biomatic in Action" width="640" height="480" border="10" /></a>
 ### Original:
 - ![Biomatic biome identifier](https://forum.kerbalspaceprogram.com/index.php?/topic/80379-*)
 - ![SpaceDock](http://spacedock.info/mod/634)
+- none known
+***  
+*red box below is a link to forum post on how to get support*  
+[![How to get support][image:get-support]][thread:getsupport]
 
-<hr>
- *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date*
+### License
+#### aka Legal Mumbo Jumbo
+Source: [GitHub][MOD:github:repo]  
+License: ![License MIT][shield:license] ![][LOGO:mit]    
+> *** All bundled mods are distributed under their own licenses***<br>
+> *** All art assets (textures, models, animations) are distributed under their own licenses*** 
+### Original
+[Thread][MOD:original:thread]  
+[Download][MOD:original:download]  
+Source: [GitHub][MOD:original:source]  
+License: ![License MIT][shield:license] ![][LOGO:mit]  
+<!-- graphical links to downloads -->
+[![][image:rel-github]][MOD:rel-github] [![][image:rel-spacedock]][MOD:rel-spacedock] [![][image:rel-curseforge]][MOD:rel-curseforge]  
 
-###### 📌 v1.3.1.0 original: 11 Aug 2018 0K updated: 03 Feb 2020 zed'K
+*Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date*
 
+###### v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K
+
+[MOD:license]:      https://github.com/zer0Kerbal/ScrapYard/blob/master/LICENSE
+[MOD:contributing]: https://github.com/zer0Kerbal/ScrapYard/blob/master/.github/CONTRIBUTING.md
+[MOD:issues]:       https://github.com/zer0Kerbal/ScrapYard/issues
+[MOD:wiki]:         https://github.com/zer0Kerbal/ScrapYard/
+[MOD:known]:        https://github.com/zer0Kerbal/ScrapYard/wiki/Known-Issues
+[MOD:forum]:        https://forum.kerbalspaceprogram.com/index.php?/topic/192456-*
+[MOD:github:repo]:  https://github.com/zer0Kerbal/ScrapYard/
+[MOD:changelog]:    https://github.com/zer0Kerbal/ScrapYard/Changelog.cfg
+<!--- original mod stuff -->
+[MOD:original:source]: https://github.com/severedsolo/ScrapYard
+[MOD:original:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/178641-*
+[MOD:original:download]: https://github.com/severedsolo/ScrapYard/releases/latest
+
+[KSP:website]: http://kerbalspaceprogram.com/
+[LOGO:mit]:    https://i.postimg.cc/bvjfsMP5/MIT-17x17.png
+[LOGO:gplv3]: https://i.postimg.cc/90kCDs7K/gplv3-48x17.png
+
+[MOD:rel-github]: https://github.com/zer0Kerbal/ScrapYard/releases/latest "GitHub"
+[MOD:rel-spacedock]: http://spacedock.info/mod/1746
+[MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/scrapyard
+[MOD:rel-ckan]: http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*
+
+[image:rel-github]:       https://i.imgur.com/RE4Ppr9.png
+[image:rel-spacedock]: https://i.imgur.com/m0a7tn2.png
+[image:rel-curseforge]: https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png
+[image:get-support]:    https://i.postimg.cc/vHP6zmrw/image.png
+
+[image:rel-ckan]:    https://i.postimg.cc/x8XSVg4R/sj507JC.png
+[image:changelog]: https://i.postimg.cc/qM9p4V0C/changelog.png
+[image:source]:      https://i.postimg.cc/tJ8GqW0H/source.png
+
+[image:rel-github-sm]:      https://i.postimg.cc/1XXy5yfD/github.png
+[image:rel-spacedock-sm]: https://i.postimg.cc/DZ22Hrhj/spacedock.png
+[image:rel-curseforge-sm]: https://i.postimg.cc/ZRVTSWKT/UVVt0OP.png
+  
+[shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/ScrapYard?include_prereleases?style=plastic
+[shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/mod.json
+[shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/ksp.json
+[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/ScrapYard/master/json/license.json
+[shield:kspavc]:     https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic
+[shield:spacedock]:  https://img.shields.io/badge/SpaceDock-listed-blue.svg?style=plastic
+[shield:ckan]:       https://img.shields.io/badge/CKAN-Indexed-blue.svg?style=plastic
+[shield:github]:     https://img.shields.io/badge/Github-Indexed-blue.svg?style=plastic&logo=github
+[shield:curseforge]: https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic
+[shield:avcvalid]:    https://github.com/zer0Kerbal/ScrapYard/workflows/Validate%20AVC%20.version%20files/badge.svg
+
+<!-- zer0Kerbal mods -->
+[thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"
+[thread:FTF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Facility"
+[thread:FTL]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Lab"
+[thread:MHH]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188246-* "More Hitchhikers"
+[thread:TCP]:  https://forum.kerbalspaceprogram.com/index.php?/topic/187495-* "Transparent Command Pods"
+[thread:NUK]:  https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*
+[thread:OHS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "Oh Scrap!"
+[thread:SYD]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "ScrapYard"
+
+[thread:DPD]:  https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions
+[thread:PPS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192187-*
+[thread:VG0]:  http:// "Vanguard"
+[thread:PRB]:  http:// "ProbiTronics"
+[thread:CTN]:  http:// "CTN"
+[thread:DST]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Spherical Tanks"
+[thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
+[thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
+[thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
+[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS):
+[thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
+[thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
+[thread:NSSC:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
+[thread:BSS]:  http:// "B9 Stock Switches"
+[thread:HB!]:  http:// "HotBeverages"
+
+[thread:mm]: http://forum.kerbalspaceprogram.com/index.php?/topic/50533-*
+[thread:mc]: https://forum.kerbalspaceprogram.com/index.php?/topic/178484-*
+[thread:kcl]: https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*
+[thread:sr]: https://forum.kerbalspaceprogram.com/index.php?/topic/179306-*
+[thread:kct]: https://forum.kerbalspaceprogram.com/index.php?/topic/182877-*
+
+[thread:toolbarcontroller]:   https://forum.kerbalspaceprogram.com/index.php?/topic/169509-*
+[thread:clickthroughblocker]: https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*
+[thread:toolbar]:             https://forum.kerbalspaceprogram.com/index.php?/topic/161857-*
+
+[thread:tweakscale]:           https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*
+[thread:Community Resource Pack]: http://forum.kerbalspaceprogram.com/index.php?/topic/83007-*
+[thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*
+
+[LINK:magico13]:       https://forum.kerbalspaceprogram.com/index.php?/profile/73338-magico13/
+[LINK:severedsolo]:    https://forum.kerbalspaceprogram.com/index.php?/profile/80345-severedsolo/
+[LINK:linuxgurugamer]: https://forum.kerbalspaceprogram.com/index.php?/profile/129964-linuxgurugamer/
+[LINK:siriussame]:     https://forum.kerbalspaceprogram.com/index.php?/profile/116426-siriussam/
+[LINK:enneract]:       https://forum.kerbalspaceprogram.com/index.php?/profile/56759-enneract/
+[LINK:]:               https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/
+[LINK:zer0Kerbal]:     https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/
+
+[IMG:hero:0]: https://spacedock.info/content/BiffSpace_2144/Biomatic/Biomatic-1462190469.105298.jpg "Biomatic"
+[IMG:hero:1]: https://
 
 <!--
-CC BY-NC-SA 4.0
-zer0Kerbal (zed'K)
--->
+this file: GPLv2
+zer0Kerbal-->

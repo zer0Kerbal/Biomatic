@@ -1,3 +1,10 @@
+Biomatic (Biome sensor) for Kerbal Space Program
+
+Copyright Matt Reed, 2014
+Copyright zer0Kerbal, 2019
+
+Licenced under GPLv3, text at http://www.gnu.org/licenses/gpl.txt
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 
@@ -672,3 +679,4 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <http://www.gnu.org/philosophy/why-not-lgpl.html>.
+
