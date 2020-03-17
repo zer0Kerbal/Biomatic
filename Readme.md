@@ -110,7 +110,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 
 *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date*
 
-###### v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K
+###### v1.3.3.7 original: 01 Oct 2019 zed'K | updated: 17 Mar 2020 zed'K
 
 [MOD:license]:      https://github.com/zer0Kerbal/Biomatic/blob/master/LICENSE
 [MOD:contributing]: https://github.com/zer0Kerbal/Biomatic/blob/master/.github/CONTRIBUTING.md
@@ -180,7 +180,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"
 [thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
 [thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
-[thread:NSSC:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
+[thread:NSSC]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
 [thread:BSS]:  http:// "B9 Stock Switches"
 [thread:HB!]:  http:// "HotBeverages"
 
