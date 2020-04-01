@@ -29,7 +29,7 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 
 ## Dependencies
 - [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions (YMMV)
-- [x] ***NEW*** [Toolbar Controller]: [thread:toolbarcontroller]
+- [x] ***NEW*** [Toolbar Controller][thread:toolbarcontroller]
 - [x] ***NEW*** [Click Through Blocker][thread:clickthroughblocker]
 
 ### Recommends
@@ -37,23 +37,24 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 - [x] ***NEW*** [Toolbar][thread:toolbar]
 
 ### Suggests
- * [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
- * [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
- * [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
- * [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
- * [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
- * [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
- * [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
- * [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
- * [Vanguard]()
- * [ProbiTronics]()
- * [CTN]()
- * [Stork Delivery System (SDS)]()
- * [SimpleLogistics]()
- * [SimpleConstruction]()
- * [Not So Simple Construction]()
- * [B9 Stock Switches (BSS)]()
- * [HotBeverages!]()
+- [x] [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
+- [x] [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x] [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x] [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
+- [x] [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
+- [x] [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
+- [x] [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
+- [x] [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
+- [x] [SimpleLogistics! (SL!)]
+- [x] [SimpleConstruction! (SC!))]
+- [x] [Not So Simple Construction (NSSC)][thread:NSSC]
+- [x] [Stork Delivery System (SDS)][tread:SDS]
+- [x] [KGEx (KGX)][thread:KGX][thread:KGEX]
+- [x] [B9 Stock Switches (B9S)][thread:B9S]
+- [x] [CTN]()
+- [x] [Vanguard]()
+- [x] [ProbiTronics]()
+- [x] [HotBeverages!]()
 
 ### 
 
@@ -110,7 +111,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 
 *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date*
 
-###### v2.0.1.0 original: 01 Oct 2019 zed'K | updated: 16 Mar 2020 zed'K
+###### v1.3.3.7 original: 01 Oct 2019 zed'K | updated: 17 Mar 2020 zed'K
 
 [MOD:license]:      https://github.com/zer0Kerbal/Biomatic/blob/master/LICENSE
 [MOD:contributing]: https://github.com/zer0Kerbal/Biomatic/blob/master/.github/CONTRIBUTING.md
@@ -134,17 +135,17 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [MOD:rel-curseforge]: https://www.curseforge.com/kerbal/ksp-mods/biomatic
 [MOD:rel-ckan]: http://forum.kerbalspaceprogram.com/index.php?/topic/90246-*
 
-[image:rel-github]:       https://i.imgur.com/RE4Ppr9.png
-[image:rel-spacedock]: https://i.imgur.com/m0a7tn2.png
+[image:rel-github]:     https://i.imgur.com/RE4Ppr9.png
+[image:rel-spacedock]:  https://i.imgur.com/m0a7tn2.png
 [image:rel-curseforge]: https://i.postimg.cc/RZNyB5vP/Download-On-Curse.png
 [image:get-support]:    https://i.postimg.cc/vHP6zmrw/image.png
 
-[image:rel-ckan]:    https://i.postimg.cc/x8XSVg4R/sj507JC.png
+[image:rel-ckan]:  https://i.postimg.cc/x8XSVg4R/sj507JC.png
 [image:changelog]: https://i.postimg.cc/qM9p4V0C/changelog.png
-[image:source]:      https://i.postimg.cc/tJ8GqW0H/source.png
+[image:source]:    https://i.postimg.cc/tJ8GqW0H/source.png
 
-[image:rel-github-sm]:      https://i.postimg.cc/1XXy5yfD/github.png
-[image:rel-spacedock-sm]: https://i.postimg.cc/DZ22Hrhj/spacedock.png
+[image:rel-github-sm]:     https://i.postimg.cc/1XXy5yfD/github.png
+[image:rel-spacedock-sm]:  https://i.postimg.cc/DZ22Hrhj/spacedock.png
 [image:rel-curseforge-sm]: https://i.postimg.cc/ZRVTSWKT/UVVt0OP.png
   
 [shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases?style=plastic
@@ -177,10 +178,10 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
 [thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
 [thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS):
+[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"
 [thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
 [thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
-[thread:NSSC:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
+[thread:NSSC]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
 [thread:BSS]:  http:// "B9 Stock Switches"
 [thread:HB!]:  http:// "HotBeverages"
 

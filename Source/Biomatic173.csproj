@@ -58,20 +58,19 @@
     <Compile Include="Biomatic.cs" />
     <Compile Include="BiomaticExtensions.cs" />
     <Compile Include="BiomeSituation.cs" />
-    <Compile Include="Properties\AssemblyVersion.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AssemblyVersion.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ToolbarWrapper.cs" />
+    <Compile Include="GameSettings.cs" />
     <Compile Include="RegisterToolbar.cs" />
     <Compile Include="RectExtensions.cs" />
     <Compile Include="TechChecker.cs" />
     <Compile Include="Log.cs" />
     <Compile Include="Utilities.cs" />
-    <Compile Include="StockToolBar.cs" />
     <Compile Include="InstallChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\AssemblyVersion.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AssemblyVersion.tt</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Version.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

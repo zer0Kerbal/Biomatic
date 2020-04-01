@@ -1,4 +1,9 @@
-﻿///**
+﻿/* TODO 
+  * InstallChecker.cs
+  * version 2.0.0.0
+*/
+
+//**
 // * Based on the InstallChecker from the Kethane mod for Kerbal Space Program.
 // * https://github.com/Majiir/Kethane/blob/b93b1171ec42b4be6c44b257ad31c7efd7ea1702/Plugin/InstallChecker.cs
 // * 
@@ -37,8 +42,9 @@ namespace Biomatic
                     new Vector2(0.5f, 0.5f),
                     "test",
                     Localizer.Format("#Biomatic_InstallChecker_title", MODNAME),//"Incorrect " +  + " Installation" 
-                    MODNAME + " has been installed incorrectly and will not function properly. All files should be located in KSP/GameData/" + FOLDERNAME + ". Do not move any files from inside that folder.\n\nIncorrect path(s):\n" + String.Join("\n", badPaths.ToArray()),
-                    "OK",
+                    // MODNAME + " has been installed incorrectly and will not function properly. All files should be located in KSP/GameData/" + FOLDERNAME + ". Do not move any files from inside that folder.\n\nIncorrect path(s):\n" + String.Join("\n", badPaths.ToArray()),
+                    Localizer.Format("#Biomatic_InstallChecker_msg", MODNAME, FOLDERNAME, String.Join("\n", badPaths.ToArray())),
+                    Localizer.Format("#Biomatic_InstallChecker_btn"),
                     false,
                     HighLogic.UISkin
                 );

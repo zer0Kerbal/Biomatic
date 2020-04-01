@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config>
     <rect name="Window Position">
-        <xmin>0</xmin>
-        <xmax>255</xmax>
-        <ymin>0</ymin>
-        <ymax>400</ymax>
+        <xmin>70.5</xmin>
+        <xmax>325.5</xmax>
+        <ymin>462.5</ymin>
+        <ymax>734.5</ymax>
     </rect>
     <int name="List items">0</int>
-    <bool name="DeWarp">0</bool>
-    <bool name="Use altitude">0</bool>
-    <bool name="Show description">0</bool>
+    <bool name="DeWarp">1</bool>
+    <bool name="Use altitude">1</bool>
+    <bool name="Show description">1</bool>
     <string name="Toolbar">stock</string>
-    <bool name="Instant dewarp">0</bool>
-    <string name="OnOff">Off</string>
-    <bool name="Show recent">0</bool>
-    <string name="Sound">0</string>
+    <bool name="Instant dewarp">1</bool>
+    <string name="OnOff">On</string>
+    <bool name="Show recent">1</bool>
+    <string name="Sound">2</string>
     <bool name="Per vessel">0</bool>
 </config>

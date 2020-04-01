@@ -37,23 +37,24 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 - [x] ***NEW*** [Toolbar][thread:toolbar]
 
 ### Suggests
- * [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
- * [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
- * [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
- * [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
- * [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
- * [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
- * [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
- * [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
- * [Vanguard]()
- * [ProbiTronics]()
- * [CTN]()
- * [Stork Delivery System (SDS)]()
- * [SimpleLogistics]()
- * [SimpleConstruction]()
- * [Not So Simple Construction]()
- * [B9 Stock Switches (BSS)]()
- * [HotBeverages!]()
+- [x] [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
+- [x] [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x] [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x] [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
+- [x] [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
+- [x] [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
+- [x] [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
+- [x] [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
+- [x] [SimpleLogistics! (SL!)]
+- [x] [SimpleConstruction! (SC!))]
+- [x] [Not So Simple Construction (NSSC)][thread:NSSC]
+- [x] [Stork Delivery System (SDS)][tread:SDS]
+- [x] [KGEx (KGX)][thread:KGX][thread:KGEX]
+- [x] [B9 Stock Switches (B9S)][thread:B9S]
+- [x] [CTN]()
+- [x] [Vanguard]()
+- [x] [ProbiTronics]()
+- [x] [HotBeverages!]()
 
 ### 
 
