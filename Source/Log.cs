@@ -28,7 +28,7 @@ namespace Biomatic
 
         internal static void Info(string msg)
         {
-            Debug.Log("[Biomatic] {0}", msg);
+            Debug.Log(String.Format("{0}{1}", MsgBase, msg));
         }
     }
     internal class Debug : MonoBehaviour
