@@ -181,7 +181,7 @@ namespace Biomatic
         /// <summary>Called when part is added to the craft.</summary>
         public override void OnAwake()
         {
-            Log.Info(String.Format("OnAwake for {0}", name));
+            // Log.Info(String.Format("OnAwake for {0}", name));
         }
 
         public void Start()
@@ -204,7 +204,6 @@ namespace Biomatic
                 MODID,
                 "biomaticButton",
                 IconPath + "BiomaticUnavailable",
-                IconPath + "BiomeUnavailable",
                 MODNAME
             );
 
@@ -390,14 +389,6 @@ namespace Biomatic
 
         void UpdateToolbarButton()
         {
-                        if (Instance != null)
-            {
-                // Reloading of GameDatabase causes another copy of addon to spawn at next opportunity. Suppress it.
-                // see: https://forum.kerbalspaceprogram.com/index.php?/topic/7542-x/&do=findComment&comment=3574980
-               // Destroy(gameObject);
-                return;
-            }
-
             string blizzyButtonPath = IconPath + "Biom";
             bool relevant = IsRelevant();
             if (relevant)
