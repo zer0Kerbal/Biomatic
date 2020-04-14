@@ -21,8 +21,8 @@ namespace Biomatic
     {
         public override string Title { get { return "Default Settings"; } }
         public override GameParameters.GameMode GameMode { get { return GameParameters.GameMode.ANY; } }
-        public override string Section { get { return "[WIP]"; } }
-        public override string DisplaySection { get { return "[WIP] Biomatic"; } }
+        public override string Section { get { return "Biomatic"; } }
+        public override string DisplaySection { get { return "Biomatic"; } }
         public override int SectionOrder { get { return 1; } }
 
 
@@ -59,7 +59,6 @@ namespace Biomatic
         public override bool HasPresets { get { return true; } }
         public override void SetDifficultyPreset(GameParameters.Preset preset)
         {
-            Debug.Log("Setting difficulty preset");
             switch (preset)
             {
                 case GameParameters.Preset.Easy:

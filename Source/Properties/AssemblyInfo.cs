@@ -37,3 +37,4 @@ using System.Runtime.InteropServices;
 
 // [assembly: AssemblyFileVersion(Biomatic.Version.Number)]
 // [assembly: AssemblyFileVersion("1.4.0.0")]
+[assembly: AssemblyInformationalVersionAttribute("@FULL_VERSION@")]
