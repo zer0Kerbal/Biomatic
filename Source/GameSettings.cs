@@ -46,7 +46,7 @@ namespace Biomatic
         public bool useAlternateSkin { get { return _useAlternateSkin; } }
 
         [GameParameters.CustomParameterUI("PAW Color",
-            toolTip = "allow color coding in ODC PAW (part action window) / part RMB (right menu button).",
+            toolTip = "allow color coding in Biomatic PAW (part action window) / part RMB (right menu button).",
             newGameOnly = false,
             unlockedDuringMission = true)]
         public bool coloredPAW = true;

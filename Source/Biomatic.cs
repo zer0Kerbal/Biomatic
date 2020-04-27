@@ -14,7 +14,7 @@ namespace Biomatic
 
     class Biomatic : PartModule
     {
-        internal static Biomatic Instance;
+        internal static Biomatic Instance; // internal -> private
 
         internal const string MODID = "Biomatic_ID";
         internal const string MODNAME = "Biomatic";
@@ -111,6 +111,8 @@ namespace Biomatic
             set { _hideUI = value; }
         }
 
+        public static string MODID1 => MODID;
+
         public void HideUIAction()
         {
             _hideUI = true;
@@ -176,7 +178,8 @@ namespace Biomatic
         public static int ElectricChargeID;
 
         // #region Mono
-        #region Public Functions
+#endregion
+#region Public Functions
 
         /// <summary>Called when part is added to the craft.</summary>
         public override void OnAwake()
