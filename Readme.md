@@ -36,28 +36,6 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 - [x] [Module Manager][thread:mm]
 - [x] ***NEW*** [Toolbar][thread:toolbar]
 
-### Suggests
-- [x] [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
-- [x] [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
-- [x] [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
-- [x] [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
-- [x] [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
-- [x] [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
-- [x] [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
-- [x] [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
-- [x] [SimpleLogistics! (SL!)]
-- [x] [SimpleConstruction! (SC!))]
-- [x] [Not So Simple Construction (NSSC)][thread:NSSC]
-- [x] [Stork Delivery System (SDS)][tread:SDS]
-- [x] [KGEx (KGX)][thread:KGX][thread:KGEX]
-- [x] [B9 Stock Switches (B9S)][thread:B9S]
-- [x] [CTN]()
-- [x] [Vanguard]()
-- [x] [ProbiTronics]()
-- [x] [HotBeverages!]()
-
-### 
-
 ### Installation 
 
 The Biomatic folder needs to be unzipped and put in your KSP\GameData folder:
@@ -67,7 +45,6 @@ The Biomatic folder needs to be unzipped and put in your KSP\GameData folder:
 Any comments and suggestions for improvements are welcome, as are reports of bugs / problems - please let me know what you think.
 
 ### Code
-
 
 - Window now disappears with the rest of the UI on F2
 - If the part config file is edited to move the part to a different tech tree node, it will now behave sensibly rather than requiring 'spaceExploration' to be unlocked
@@ -159,32 +136,6 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [shield:curseforge]: https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic
 [shield:avcvalid]:    https://github.com/zer0Kerbal/Biomatic/workflows/Validate%20AVC%20.version%20files/badge.svg
 
-<!-- zer0Kerbal mods -->
-[thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"
-[thread:FTF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Facility"
-[thread:FTL]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Lab"
-[thread:MHH]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188246-* "More Hitchhikers"
-[thread:TCP]:  https://forum.kerbalspaceprogram.com/index.php?/topic/187495-* "Transparent Command Pods"
-[thread:NUK]:  https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*
-[thread:OHS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "Oh Scrap!"
-[thread:SYD]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "ScrapYard"
-
-[thread:DPD]:  https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions
-[thread:PPS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192187-*
-[thread:VG0]:  http:// "Vanguard"
-[thread:PRB]:  http:// "ProbiTronics"
-[thread:CTN]:  http:// "CTN"
-[thread:DST]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Spherical Tanks"
-[thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
-[thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
-[thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"
-[thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
-[thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
-[thread:NSSC]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
-[thread:BSS]:  http:// "B9 Stock Switches"
-[thread:HB!]:  http:// "HotBeverages"
-
 [thread:mm]: http://forum.kerbalspaceprogram.com/index.php?/topic/50533-*
 [thread:mc]: https://forum.kerbalspaceprogram.com/index.php?/topic/178484-*
 [thread:kcl]: https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*
@@ -204,12 +155,12 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [LINK:linuxgurugamer]: https://forum.kerbalspaceprogram.com/index.php?/profile/129964-linuxgurugamer/
 [LINK:siriussame]:     https://forum.kerbalspaceprogram.com/index.php?/profile/116426-siriussam/
 [LINK:enneract]:       https://forum.kerbalspaceprogram.com/index.php?/profile/56759-enneract/
-[LINK:]:               https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/
+[LINK:pehvbot]:               https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/
 [LINK:zer0Kerbal]:     https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/
 
 [IMG:hero:0]: https://spacedock.info/content/BiffSpace_2144/Biomatic/Biomatic-1462190469.105298.jpg "Biomatic"
 [IMG:hero:1]: https://
 
 <!--
-this file: GPLv2
+this file: GPLv2 BY
 zer0Kerbal-->
