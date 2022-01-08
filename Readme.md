@@ -75,14 +75,14 @@ alt="Biomatic in Action" width="640" height="480" border="10" /></a>
 ### License
 #### aka Legal Mumbo Jumbo
 Source: [GitHub][MOD:github:repo]  
-License: ![License MIT][shield:license] ![][LOGO:mit]    
+License: ![License MIT][shield:license]  
 > *** All bundled mods are distributed under their own licenses***<br>
 > *** All art assets (textures, models, animations) are distributed under their own licenses*** 
 ### Original
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
 Source: [GitHub][MOD:original:source]  
-License: ![License MIT][shield:license] ![][LOGO:mit]  
+License: ![License MIT][shield:license]  
 <!-- graphical links to downloads -->
 [![][image:rel-github]][MOD:rel-github] [![][image:rel-spacedock]][MOD:rel-spacedock] [![][image:rel-curseforge]][MOD:rel-curseforge]  
 
@@ -128,7 +128,7 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [shield:mod:latest]: https://img.shields.io/github/v/release/zer0Kerbal/Biomatic?include_prereleases?style=plastic
 [shield:mod]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/mod.json
 [shield:ksp]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/ksp.json
-[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/license.json
+[shield:license]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/Biomatic/master/json/license.json&logo=gnu
 [shield:kspavc]:     https://img.shields.io/badge/KSP-AVC--supported-brightgreen.svg?style=plastic
 [shield:spacedock]:  https://img.shields.io/badge/SpaceDock-listed-blue.svg?style=plastic
 [shield:ckan]:       https://img.shields.io/badge/CKAN-Indexed-blue.svg?style=plastic
