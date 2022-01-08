@@ -14,7 +14,7 @@ updated: 03 Feb 2020 -->
 ![Validate AVC .version files][shield:avcvalid]  
 ***
 ![Biomatic][IMG:hero:0]
-
+[![.NET](https://github.com/zer0Kerbal/Biomatic/actions/workflows/dotnet.yml/badge.svg)](https://github.com/zer0Kerbal/Biomatic/actions/workflows/dotnet.yml)
 The Biomatic sensor identifies the biome that the ship is in / above, and shows the information in a small text window. Optionally the ship's situation (high / low space, high / low flight, landed, splashed) can be shown as well. Biomes where science has been done can be added to a list, which is used together with a kill warp option to de-warp the ship when entering an un-listed biome. The list of biomes can be per-vessel, or global.
 
 It is integrated with the stock toolbar by default, but can be configured to use blizzy's using [toolbar controller]
@@ -104,7 +104,6 @@ License: ![License MIT][shield:license]
 [MOD:original:download]: http://spacedock.info/mod/634/Biomatic
 
 [KSP:website]: http://kerbalspaceprogram.com/
-[LOGO:mit]:    https://i.postimg.cc/bvjfsMP5/MIT-17x17.png
 [LOGO:gplv3]: https://i.postimg.cc/90kCDs7K/gplv3-48x17.png
 
 [MOD:rel-github]: https://github.com/zer0Kerbal/Biomatic/releases/latest "GitHub"
