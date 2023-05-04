@@ -14,7 +14,7 @@ updated: 03 Feb 2020 -->
 ![Validate AVC .version files][shield:avcvalid]  
 ***
 ![Biomatic][IMG:hero:0]
-
+[![.NET](https://github.com/zer0Kerbal/Biomatic/actions/workflows/dotnet.yml/badge.svg)](https://github.com/zer0Kerbal/Biomatic/actions/workflows/dotnet.yml)
 The Biomatic sensor identifies the biome that the ship is in / above, and shows the information in a small text window. Optionally the ship's situation (high / low space, high / low flight, landed, splashed) can be shown as well. Biomes where science has been done can be added to a list, which is used together with a kill warp option to de-warp the ship when entering an un-listed biome. The list of biomes can be per-vessel, or global.
 
 It is integrated with the stock toolbar by default, but can be configured to use blizzy's using [toolbar controller]
@@ -68,7 +68,6 @@ Any comments and suggestions for improvements are welcome, as are reports of bug
 
 ### Code
 
-
 - Window now disappears with the rest of the UI on F2
 - If the part config file is edited to move the part to a different tech tree node, it will now behave sensibly rather than requiring 'spaceExploration' to be unlocked
 
@@ -98,14 +97,14 @@ alt="Biomatic in Action" width="640" height="480" border="10" /></a>
 ### License
 #### aka Legal Mumbo Jumbo
 Source: [GitHub][MOD:github:repo]  
-License: ![License MIT][shield:license] ![][LOGO:mit]    
+License: ![License MIT][shield:license]  
 > *** All bundled mods are distributed under their own licenses***<br>
 > *** All art assets (textures, models, animations) are distributed under their own licenses*** 
 ### Original
 [Thread][MOD:original:thread]  
 [Download][MOD:original:download]  
 Source: [GitHub][MOD:original:source]  
-License: ![License MIT][shield:license] ![][LOGO:mit]  
+License: ![License MIT][shield:license]  
 <!-- graphical links to downloads -->
 [![][image:rel-github]][MOD:rel-github] [![][image:rel-spacedock]][MOD:rel-spacedock] [![][image:rel-curseforge]][MOD:rel-curseforge]  
 
@@ -127,7 +126,6 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [MOD:original:download]: http://spacedock.info/mod/634/Biomatic
 
 [KSP:website]: http://kerbalspaceprogram.com/
-[LOGO:mit]:    https://i.postimg.cc/bvjfsMP5/MIT-17x17.png
 [LOGO:gplv3]: https://i.postimg.cc/90kCDs7K/gplv3-48x17.png
 
 [MOD:rel-github]: https://github.com/zer0Kerbal/Biomatic/releases/latest "GitHub"
@@ -159,32 +157,6 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [shield:curseforge]: https://img.shields.io/badge/CurseForge-listed-blue.svg?style=plastic
 [shield:avcvalid]:    https://github.com/zer0Kerbal/Biomatic/workflows/Validate%20AVC%20.version%20files/badge.svg
 
-<!-- zer0Kerbal mods -->
-[thread:ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-* "On Demand Fuel Cells"
-[thread:FTF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Facility"
-[thread:FTL]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188841-* "Field Training Lab"
-[thread:MHH]:  https://forum.kerbalspaceprogram.com/index.php?/topic/188246-* "More Hitchhikers"
-[thread:TCP]:  https://forum.kerbalspaceprogram.com/index.php?/topic/187495-* "Transparent Command Pods"
-[thread:NUK]:  https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*
-[thread:OHS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "Oh Scrap!"
-[thread:SYD]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192360-* "ScrapYard"
-
-[thread:DPD]:  https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions
-[thread:PPS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/192187-*
-[thread:VG0]:  http:// "Vanguard"
-[thread:PRB]:  http:// "ProbiTronics"
-[thread:CTN]:  http:// "CTN"
-[thread:DST]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Spherical Tanks"
-[thread:DMF]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's Fuselage"
-[thread:DAR]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's AeroRadial"
-[thread:DCB]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "DaMichel's CargoBays"
-[thread:SDS]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191719-* "Stork Delivery System (SDS)"
-[thread:SC!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191424-* "SimpleConstructon!"
-[thread:SL!]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191045-* "SimpleLogistics!"
-[thread:NSSC]:  https://forum.kerbalspaceprogram.com/index.php?/topic/191504-* "Not So SimpleConstructon!"
-[thread:BSS]:  http:// "B9 Stock Switches"
-[thread:HB!]:  http:// "HotBeverages"
-
 [thread:mm]: http://forum.kerbalspaceprogram.com/index.php?/topic/50533-*
 [thread:mc]: https://forum.kerbalspaceprogram.com/index.php?/topic/178484-*
 [thread:kcl]: https://forum.kerbalspaceprogram.com/index.php?/topic/179207-*
@@ -200,6 +172,12 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*
 
 [LINK:biffspace]: https://forum.kerbalspaceprogram.com/index.php?/profile/110793-biff-space/ "Biff Space"  
+[LINK:magico13]:       https://forum.kerbalspaceprogram.com/index.php?/profile/73338-magico13/
+[LINK:severedsolo]:    https://forum.kerbalspaceprogram.com/index.php?/profile/80345-severedsolo/
+[LINK:linuxgurugamer]: https://forum.kerbalspaceprogram.com/index.php?/profile/129964-linuxgurugamer/
+[LINK:siriussame]:     https://forum.kerbalspaceprogram.com/index.php?/profile/116426-siriussam/
+[LINK:enneract]:       https://forum.kerbalspaceprogram.com/index.php?/profile/56759-enneract/
+[LINK:pehvbot]:               https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/
 [LINK:zer0Kerbal]:     https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/
 
 [auth:img:biffspace]: https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2016_06/Silhouette.jpg.139eb272e5b741de0c8c63faa9ed844f.thumb.jpg.fa116f3a6c152657787375701d72d5c3.jpg "Biff Space's Avatar"  
@@ -209,5 +187,5 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [IMG:hero:1]: https://
 
 <!--
-this file: GPLv2
+this file: GPLv2 BY
 zer0Kerbal-->
