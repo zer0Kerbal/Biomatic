@@ -7,7 +7,7 @@ updated: 03 Feb 2020 -->
 
 # Biomatic
 ## Simple biome identification, notification, tracking, and warp stopping. <br>
-*adopted for curation by zer0Kerbal - originally by @Biff_Space*  
+*adopted for curation by [![@zer0Kerbal]][auth:img:zer0Kerbal][LINK:zer0Kerbal] - originally by [![@Biff_Space]][auth:img:biffspace][LINK:biffspace]*  
 ![Mod Version][shield:mod:latest] 
 ![KSP version][shield:ksp] ![KSP-AVC][shield:kspavc] ![License GPLv3][shield:license] ![][LOGO:gplv3]   
 ![SpaceDock][shield:spacedock] ![CKAN][shield:ckan] ![GitHub][shield:github] ![Curseforge][shield:curseforge]  
@@ -28,33 +28,33 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 - [OPTIONAL] makes Start the techRequired for the Biomatic part 
 
 ## Dependencies
-- [x] [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions (YMMV)
-- [x] ***NEW*** [Toolbar Controller][thread:toolbarcontroller]
-- [x] ***NEW*** [Click Through Blocker][thread:clickthroughblocker]
+- [x]  [Kerbal Space Program][KSP:website] [![][shield:ksp]][KSP:website] ***may*** work on other versions (YMMV)
+- [x]  ***NEW*** [Toolbar Controller][thread:toolbarcontroller]
+- [x]  ***NEW*** [Click Through Blocker][thread:clickthroughblocker]
 
 ### Recommends
-- [x] [Module Manager][thread:mm]
-- [x] ***NEW*** [Toolbar][thread:toolbar]
+- [x]  [Module Manager][thread:mm]
+- [x]  ***NEW*** [Toolbar][thread:toolbar]
 
 ### Suggests
-- [x] [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
-- [x] [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
-- [x] [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
-- [x] [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
-- [x] [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
-- [x] [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
-- [x] [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
-- [x] [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
-- [x] [SimpleLogistics! (SL!)]
-- [x] [SimpleConstruction! (SC!))]
-- [x] [Not So Simple Construction (NSSC)][thread:NSSC]
-- [x] [Stork Delivery System (SDS)][tread:SDS]
-- [x] [KGEx (KGX)][thread:KGX][thread:KGEX]
-- [x] [B9 Stock Switches (B9S)][thread:B9S]
-- [x] [CTN]()
-- [x] [Vanguard]()
-- [x] [ProbiTronics]()
-- [x] [HotBeverages!]()
+- [x]  [On Demand Fuel Cells (ODFC)](https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*)
+- [x]  [Field Training Facility (FTF)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x]  [Field Training Lab (FTL)](https://forum.kerbalspaceprogram.com/index.php?/topic/188841-*)
+- [x]  [Docking Port Descriptions](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/DockingPortDescriptions)
+- [x]  [More Hitchhikers](https://forum.kerbalspaceprogram.com/index.php?/topic/188246-*)
+- [x]  [PicoPort Shielded](https://github.com/zer0Kerbal/KGEx/tree/master/GameData/KGEx/MM-Patches/ShieldedPicoPort)
+- [x]  [Transparent Command Pods Repressurized](https://forum.kerbalspaceprogram.com/index.php?/topic/187495-*)
+- [x]  [Nuke Refueled](https://forum.kerbalspaceprogram.com/index.php?/topic/21466-*)
+- [x]  [SimpleLogistics! (SL!)]
+- [x]  [SimpleConstruction! (SC!))]
+- [x]  [Not So Simple Construction (NSSC)][thread:NSSC]
+- [x]  [Stork Delivery System (SDS)][tread:SDS]
+- [x]  [KGEx (KGX)][thread:KGX][thread:KGEX]
+- [x]  [B9 Stock Switches (B9S)][thread:B9S]
+- [x]  [CTN]()
+- [x]  [Vanguard]()
+- [x]  [ProbiTronics]()
+- [x]  [HotBeverages!]()
 
 ### 
 
@@ -199,13 +199,11 @@ License: ![License MIT][shield:license] ![][LOGO:mit]
 [thread:Community Resource Pack]: http://forum.kerbalspaceprogram.com/index.php?/topic/83007-*
 [thread:getsupport]: https://forum.kerbalspaceprogram.com/index.php?/topic/83212-*
 
-[LINK:magico13]:       https://forum.kerbalspaceprogram.com/index.php?/profile/73338-magico13/
-[LINK:severedsolo]:    https://forum.kerbalspaceprogram.com/index.php?/profile/80345-severedsolo/
-[LINK:linuxgurugamer]: https://forum.kerbalspaceprogram.com/index.php?/profile/129964-linuxgurugamer/
-[LINK:siriussame]:     https://forum.kerbalspaceprogram.com/index.php?/profile/116426-siriussam/
-[LINK:enneract]:       https://forum.kerbalspaceprogram.com/index.php?/profile/56759-enneract/
-[LINK:]:               https://forum.kerbalspaceprogram.com/index.php?/profile/182810-pehvbot/
+[LINK:biffspace]: https://forum.kerbalspaceprogram.com/index.php?/profile/110793-biff-space/ "Biff Space"  
 [LINK:zer0Kerbal]:     https://forum.kerbalspaceprogram.com/index.php?/profile/190933-zer0kerbal/
+
+[auth:img:biffspace]: https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2016_06/Silhouette.jpg.139eb272e5b741de0c8c63faa9ed844f.thumb.jpg.fa116f3a6c152657787375701d72d5c3.jpg "Biff Space's Avatar"  
+[auth:img:zer0Kerbal]https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2018_08/free-clipart-hithhikers-guide-14.thumb.jpg.05fc7d1bdc37ce2bfca8923bf1e97303.jpg "zer0Kerbal's Avatar"  
 
 [IMG:hero:0]: https://spacedock.info/content/BiffSpace_2144/Biomatic/Biomatic-1462190469.105298.jpg "Biomatic"
 [IMG:hero:1]: https://
