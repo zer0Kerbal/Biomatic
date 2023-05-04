@@ -1,0 +1,62 @@
+Biomatic biome identifier - V 1.1 for KSP 1.1.2
+===============================================
+
+A utility to allow easier science gathering in orbit, by automatically de-warping when entering a biome which hasn't been listed.
+
+
+The Biomatic Part
+=================
+
+The Biomatic sensor identifies the biome that the ship is in / above, and shows the information in a small text window. Optionally the ship's situation (high / low space, high / low flight, landed, splashed) can be shown, as can the last few biomes passed over. There is a button next to each biomes line which toggles a tick next to the biome description. There is a kill warp option which will stop warping when the ship is above an un-ticked biome. This means that the ship can warp round the planet or moon, de-warping automatically to collect science, and when that biome has been done, it can be ticked off and will not trigger de-warping again. 
+
+The Biomatic part is found under the science tab. In career or science mode, it is found in the 'Space Exploration' node of the tech tree, and this must be researched before Biomatic will work (as a part or Module Manager add-on).
+
+ModuleManager will add Biomatic to any command module or probe core, so the separate part does not have to be used.
+
+It is integrated with the stock toolbar by default, but can be configured to use blizzy's. (Change 'stock' to 'blizzy' in \GameData\Biomatic\Plugins\PluginData\Biomatic\config.xml).
+
+Installation
+============
+
+The Biomatic folder needs to be unzipped and put in your KSP\GameData folder. If you want the Biomatic function to be added to all command parts and probe cores, you will also need Module Manager, which is not included in the zip file. This should go in the GameData folder. If you have Module Manager installed for other mods, but want to use Biomatic as a part only, then you should delete the 'BiomaticConfig.cfg' file from the GameData\Biomatic folder.
+
+Code
+====
+
+The source code is in the Source folder in GameData\Biomatic.
+
+Version History
+===============
+
+UPDATED (2016-10-14), v1.3.0.0
+- Recompiled with KSP 1.2 binaries
+- Added option for per-vessel or global biome list
+
+UPDATED (2016-06-23), v1.2.0.0
+
+- Recompiled with KSP 1.1.3 binaries 
+- Available in map mode
+
+UPDATED (2016-06-09), v1.1.0.8
+
+- Added sounds (on entering unticked biome, on entering any biome, or no sound options)
+- Removed log file debug info
+
+UPDATED (2016-05-18), v1.1.0.6
+
+- Window now disappears with the rest of the UI on F2
+- If the part config file is edited to move the part to a different tech tree node, it will now behave sensibly rather than requiring 'spaceExploration' to be unlocked
+
+UPDATED (2016-05-02), v1.1.0.1
+
+- If Module Manager is used to add Biomatic functionality to command pods and probe cores, Biomatic is still unavailable until it has been researched
+- New look for stock buttons
+- Recompiled with KSP 1.1.2 binaries.
+
+Licence
+=======
+
+Biomatic, its associated files and the source code are all released under the GPL 3 licence, text here: http://www.gnu.org/licenses/gpl.txt.
+
+
+
