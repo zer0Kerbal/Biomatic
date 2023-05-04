@@ -8,16 +8,16 @@
 
 repository:
   # The name of the repository. Changing this will rename the repository
-  name: MODNAME
+  name: Biomatic
 
   # A short description of the repository that will show up on GitHub
-  description: Two size zero (0.625m) parts that make up an autonomous return capsule to stuff your experiments in for Kerbal Space Program.
+  description: An utility to allow easier science gathering in orbit, by automatically de-warping when entering a biome which hasn't been listed. For Kerbal Space Program.
 
   # A URL with more information about the repository
-  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/204186-*/
+  homepage: https://forum.kerbalspaceprogram.com/index.php?/topic/191426-*/
 
   # A comma-separated list of topics to set on the repository
-  topics: kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-mods,zedk,contributions-welcome,hacktoberfest,mod
+  topics: biomatic,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-mods,biff-space,zedk,contributions-welcome,hacktoberfest,mod
 
 # Labels: define labels for Issues and Pull Requests
 labels:
