@@ -25,6 +25,9 @@ THIS FILE: CC BY-ND 4.0 by zer0Kerbal -->
 
 ## Attribution
 
+[auth:img:biffspace]: https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2016_06/Silhouette.jpg.139eb272e5b741de0c8c63faa9ed844f.thumb.jpg.fa116f3a6c152657787375701d72d5c3.jpg "Biff Space's Avatar"  
+[auth:img:zer0Kerbal]https://s3.us-west-2.amazonaws.com/kerbal-forum-uploads/monthly_2018_08/free-clipart-hithhikers-guide-14.thumb.jpg.05fc7d1bdc37ce2bfca8923bf1e97303.jpg "zer0Kerbal's Avatar" 
+
 ### Credits
 
 <ul>
