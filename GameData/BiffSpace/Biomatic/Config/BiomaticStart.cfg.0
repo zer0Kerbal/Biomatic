@@ -1,0 +1,12 @@
+﻿// BiomaticStart.cfg v1.0
+// Biomatic
+// created:  11 Oct 19 
+// updated: 03 Feb 2020
+
+@PART[Biomatic]:NEEDS[Biomatic]:FOR[Biomatic]
+{
+	%TechRequired = start
+}
+
+// GPLv2
+// zer0Kerbal
