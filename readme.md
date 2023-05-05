@@ -38,7 +38,7 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 ## Module Manager Patch(es)
 
 * adds Biomatic to any command module or probe core
-* [OPTIONAL] makes Start the techRequired for the Biomatic part 
+* [OPTIONAL] makes the Biomatic part available at all tech levels
 
 ### See more
 
@@ -54,22 +54,11 @@ The Biomatic part is found under the science tab. In career or science mode, it 
 * Review
   * by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
 
-[![Kottabos reviews Biomatic](https://img.youtube.com/vi/Oj1etoybd7E/0.jpg)](https://youtu.be/Oj1etoybd7E)
+[![Biomatic in Action](https://img.youtube.com/vi/D3lBi38pTjU/0.jpg)](https://youtu.be/D3lBi38pTjU)
 
 ### <img src="https://duckduckgo.com/i/fe0eb4d1.png" alt="Imgur logo" height="33px" >
 
-* Albums
-  * [Stack Inline Lights with full color and brightness setup and in any sizes!](https://i.imgur.com/AkVuW8J.png)
-
 ![Screenshot](https://i.imgur.com/TrdnPPU.jpg)
-
-[![Biomatic YouTube](http://img.youtube.com/vi/D3lBi38pTjU/0.jpg)](http://www.youtube.com/watch?v=D3lBi38pTjU "Biomatic in Action")
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=D3lBi38pTjU
-" target="_blank"><img src="http://img.youtube.com/vi/D3lBi38pTjU/0.jpg" 
-alt="Biomatic in Action" width="640" height="480" border="10" /></a>
-![YouTube](https://youtu.be/D3lBi38pTjU)
-<iframe width="935" height="527" src="https://www.youtube.com/embed/D3lBi38pTjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Localization
 
@@ -96,7 +85,8 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url]
 * [Toolbar Controller][tbc]
-* [Click Through Blocker][ctb]
+* ~~[Click Through Blocker][ctb]~~
+* [Biff Space Agency (BSA)][BSA]
 
 ### Recommends
 
@@ -130,10 +120,7 @@ Most recent releases only available via CurseForge/OverWolf Website/App
 * [SimpleNotes! (NOTE)][NOTES]
 * [Solar Science (SOL)][SOL]
 * [Stack Inline Lights (SIL)][SIL]
-
-
 * [TweakScale (twk)][twk]
-* [Universal Storage (us)][us]
 
 ### Tags
 
@@ -261,7 +248,7 @@ Comment, click, like, share, up-vote, subscribe
 [SOL]: https://www.curseforge.com/kerbal/ksp-mods/SolarScience "Solar Science (SOL)"
 [SYD]: https://www.curseforge.com/kerbal/ksp-mods/ScrapYard "ScrapYard (SYD)"
 
-[SpaceDock](http://spacedock.info/mod/634)
+[BSA]: https://www.curseforge.com/kerbal/ksp-mods/BiffSpaceAgency "Biff Space Agency (BSA)"
 
 [blizzy]:  https://forum.kerbalspaceprogram.com/index.php?/topic/55420-*/
 [ctb]: https://forum.kerbalspaceprogram.com/index.php?/topic/170747-*/
