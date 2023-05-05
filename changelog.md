@@ -10,6 +10,24 @@
 | spacedock  | (https://spacedock.info/mod/634)                                  |
 | ckan       | Biomatic                                                          |
 
+## Version 1.8.0.0-release `<future>` edition
+
+* Recompile for KSP 1.12.1
+
+---
+
+## Version 1.7.0.0-release `<future>` edition
+
+* Recompile for KSP 1.11.1
+
+---
+
+## Version 1.6.0.0-release `<future>` edition
+
+* Recompile for KSP 1.10.1
+
+---
+
 ## Version 1.5.0.0-release `<future>` edition
 
 * Recompile for KSP 1.9.1
