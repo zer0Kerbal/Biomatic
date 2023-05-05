@@ -84,7 +84,7 @@ namespace Biomatic
             {
                 if (ConsumeEC(TimeWarp.fixedDeltaTime) == false)
                 {
-                    ScreenMessages.PostScreenMessage(Localizer.Format("#Biomatic_PM_EC01")); // "Electric Charge Depleted. Stopping Biomatic Scanning."
+                    ScreenMessages.PostScreenMessage(Localizer.Format("#BIO-part-EC01")); // "Electric Charge Depleted. Stopping Biomatic Scanning."
                     //Log.Info("OnFixedUpdate: Electric Charge Depleted. Stopping Biomatic Scanning.");
                 }
             }
@@ -165,9 +165,9 @@ namespace Biomatic
             //? The config is only fully parsed after everything is fully loaded (which is why it's in OnStart())
             if (info == string.Empty)
             {
-                info += Localizer.Format("#Biomatic_manu"); // #Biomatic_manu = Biff Industries, Inc.
+                info += Localizer.Format("#BIO-manu"); // #BIO-manu = Biff Industries, Inc.
                 info += "\n v" + Version.Text; // Biomatic Version Number text
-                info += "\n<color=#b4d455FF>" + Localizer.Format("#Biomatic_desc"); // #Biomatic_desc = In-flight biome identifier
+                info += "\n<color=#b4d455FF>" + Localizer.Format("#BIO-desc"); // #BIO-desc = In-flight biome identifier
                 info += "\n\n<color=orange>Requires:</color><color=#FFFFFFFF> \n- <b>" + Localizer.Format("#autoLOC_252004"); // #autoLOC_252004 = ElectricCharge
                 info += "</b>: </color><color=#99FF00FF>" + RateString(ECresourceConsumptionRate) + "</color>";
             }
