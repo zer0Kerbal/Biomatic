@@ -1,9 +1,9 @@
 Biomatic (Biome sensor) for Kerbal Space Program
 
-Copyright Matt Reed, 2014
-Copyright zer0Kerbal, 2019, 2023
+Copyright (C) and (TM) Matt Reed, 2014
+Copyright (C) and (TM) zer0Kerbal, 2019-2023
 
-Licenced under GPLv3, text at http://www.gnu.org/licenses/gpl.txt
+Licensed under GPLv3, text at http://www.gnu.org/licenses/gpl.txt
 
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
