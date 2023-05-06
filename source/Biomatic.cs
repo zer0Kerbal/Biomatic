@@ -1,30 +1,43 @@
-﻿using System;
+﻿#region GPL-3.0 License
+/* Biomatic (Biome sensor) for Kerbal Space Program
+  *
+  * Copyright (C) and (TM) Matt Reed, 2014
+  * Copyright (C) and (TM) zer0Kerbal, 2019-2023
+  *
+  * This program is free software: you can redistribute it and/or modify
+  * it under the terms of the GNU General Public License as published by
+  * the Free Software Foundation, either version 3 of the License, or
+  * (at your option) any later version.
+  *
+  * This program is distributed in the hope that it will be useful,
+  * but WITHOUT ANY WARRANTY; without even the implied warranty of
+  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  * GNU General Public License for more details.
+  *
+  * You should have received a copy of the GNU General Public License
+  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  */
+#endregion
+
+using System;
 using UnityEngine;
 using System.Collections.Generic;
 using KSP.Localization;
 using UnityEngine.Networking;
 using Biomatic.Extensions;
-
 using System.Linq;
 
 namespace Biomatic
 {
     class Biomatic : PartModule
     {
-        private string info = string.Empty;
+#region variables/constants
         /// <summary>Module information shown in editors</summary>
+        private string info = string.Empty;
 
-        public static int ElectricChargeID;
         /// <summary>ElectricCharge identification number</summary>
+        public static int ElectricChargeID;
 
-       // private Vessel ActiveVessel = FlightGlobals.ActiveVessel;
-
-        #region Fields
-
-        [KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true,
-                    groupName = "Biomatic", groupStartCollapsed = true,
-                    guiName = "Biomatic:"),
-        UI_Toggle(disabledText = "Off", enabledText = "On")]
         public static bool _BiomaticIsEnabled = true;
         public static bool BiomaticIsEnabled
         {
@@ -32,8 +45,6 @@ namespace Biomatic
             set { _BiomaticIsEnabled = BiomaticIsEnabled; }
         }
 
-        [KSPField(guiActive = true, guiActiveEditor = true, groupName = "Biomatic",
-                    guiName = "EC rate")]
         public float ECresourceConsumptionRate = 0.05f;
 
 #endregion
@@ -72,8 +83,8 @@ namespace Biomatic
         }
 
         public void Start()
-        {
-            Log.Info("ModuleBiomatic.OnStart");
+        {   
+            //Log.Info("ModuleBiomatic.OnStart");
             if (ElectricChargeID == default(int))
                 ElectricChargeID = PartResourceLibrary.Instance.GetDefinition("ElectricCharge").id;
         }
@@ -96,20 +107,23 @@ namespace Biomatic
 
         public bool ConsumeEC(double elapsed)
         {
-            Log.Info(String.Format("ConsumeEC : elapsed: {0}", elapsed.ToString()));
+            //Log.Info(String.Format("ConsumeEC : elapsed: {0}", elapsed.ToString()));
             double ec = 0, amount = 0;
-            if (CheatOptions.InfiniteElectricity == true) { Log.Info(String.Format("CheatOptions.InfiniteElectricity({0})", CheatOptions.InfiniteElectricity.ToString())); return true; }
+            if (CheatOptions.InfiniteElectricity == true) { 
+                //Log.Info(String.Format("CheatOptions.InfiniteElectricity({0})", CheatOptions.InfiniteElectricity.ToString()));
+                return true;
+            }
             else foreach (Part part in FlightGlobals.ActiveVessel.parts)
                     foreach (PartResource res in part.Resources)
                         if (res.resourceName == "ElectricCharge" && res.amount > 0)
                         {
-                            Log.Info(String.Format("part {0}.{1}:{2}]", part.name, res.resourceName, res.amount));
+                            //Log.Info(String.Format("part {0}.{1}:{2}]", part.name, res.resourceName, res.amount));
                             ec += res.amount;  // tally total EC available on ship
-                            Log.Info(String.Format("total EC available {0} ]", ec.ToString()));
+                            //Log.Info(String.Format("total EC available {0} ]", ec.ToString()));
                         }
 
             amount = ECresourceConsumptionRate * TimeWarp.fixedDeltaTime;
-            Log.Info(String.Format("EC available: {0} / Consumption Rate: {1} / fixedDeltaTime {2}", ec.ToString(), ECresourceConsumptionRate.ToString(), TimeWarp.fixedDeltaTime.ToString()));
+            //Log.Info(String.Format("EC available: {0} / Consumption Rate: {1} / fixedDeltaTime {2}", ec.ToString(), ECresourceConsumptionRate.ToString(), TimeWarp.fixedDeltaTime.ToString()));
             // if not enough EC to power, then SHut.It.Down
             if (ec < amount) return false;
 
@@ -118,8 +132,6 @@ namespace Biomatic
             part.RequestResource(ElectricChargeID, amount);
             return true;
         }
-
-
 
         public bool IsPowered
         {
@@ -133,10 +145,6 @@ namespace Biomatic
                 return false;
             }
         }
-
-        #endregion
-        #region GetInfo
-
         private static string RateString(double Rate)
         {
             //  double rate = double.Parse(value.value);
@@ -155,18 +163,18 @@ namespace Biomatic
             //return String.Format(FuelRateFormat, Rate, sfx);
             return Rate.ToString("###.#####") + " EC" + sfx;
         }
-
-        public override string GetInfo()
+#endregion
+#region GetInfo
         /// <summary>Formats the information for the part information in the editors.</summary>
         /// <returns>info</returns>
+        public override string GetInfo()
         {
             //? this is what is show in the editor
             //? As annoying as it is, pre-parsing the config MUST be done here, because this is called during part loading.
             //? The config is only fully parsed after everything is fully loaded (which is why it's in OnStart())
             if (info == string.Empty)
             {
-                info += Localizer.Format("#BIO-manu"); // #BIO-manu = Biff Industries, Inc.
-                info += "\n v" + Version.Text; // Biomatic Version Number text
+                info += Localizer.Format("#BIFF-Agency-titl") + " v" + Version.SText; // Biomatic Version Number text
                 info += "\n<color=#b4d455FF>" + Localizer.Format("#BIO-desc"); // #BIO-desc = In-flight biome identifier
                 info += "\n\n<color=orange>Requires:</color><color=#FFFFFFFF> \n- <b>" + Localizer.Format("#autoLOC_252004"); // #autoLOC_252004 = ElectricCharge
                 info += "</b>: </color><color=#99FF00FF>" + RateString(ECresourceConsumptionRate) + "</color>";
