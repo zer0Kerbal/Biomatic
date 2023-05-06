@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Biomatic</name>
+    </assembly>
+    <members>
+        <member name="F:Biomatic.Biomatic.info">
+            <summary>Module information shown in editors</summary>
+        </member>
+        <member name="F:Biomatic.Biomatic.ElectricChargeID">
+            <summary>ElectricCharge identification number</summary>
+        </member>
+        <member name="M:Biomatic.Biomatic.OnAwake">
+            <summary>Called when part is added to the craft.</summary>
+        </member>
+        <member name="M:Biomatic.Biomatic.GetInfo">
+            <summary>Formats the information for the part information in the editors.</summary>
+            <returns>info</returns>
+        </member>
+        <member name="T:Biomatic.BiomaticUI">
+            <summary>class: BiomaticUI</summary>
+        </member>
+        <member name="P:Biomatic.BiomaticUI.SystemOn">
+            <summary>System On</summary>
+        </member>
+        <member name="P:Biomatic.BiomaticUI.ToolbarShowSettings">
+            <summary>Toobar Show Settings</summary>
+        </member>
+        <member name="F:Biomatic.BiomaticUI._hideUIwhenPaused">
+            <summary><para>Hides all user interface elements.</para></summary>
+        </member>
+        <member name="T:Biomatic.RegisterToolbar">
+            <summary>RegisterToolbar</summary>
+        </member>
+        <member name="T:Biomatic.Extensions.BiomaticExtensions">
+            <summary>class Biomatic Extensions</summary>
+        </member>
+        <member name="M:Biomatic.Extensions.BiomaticExtensions.IsPrimary(Part,System.Collections.Generic.List{Part},System.Int32)">
+            <summary>IsPrimary</summary>
+        </member>
+        <member name="T:Biomatic.Extensions.RectExtensions">
+            <summary>RectExtensions</summary>
+        </member>
+        <member name="M:Biomatic.Extensions.RectExtensions.CenterScreen(UnityEngine.Rect)">
+            <summary>CenterScreen</summary>
+        </member>
+        <member name="M:Biomatic.Log.dbg(System.String,System.Object[])">
+            <summary>
+            sends the specific message to ingame mail and screen if Debug is defined
+            For debugging use only.
+            </summary>
+            <param name="msg">The MSG.</param>
+            <param name="params">The parameters.</param>
+        </member>
+        <member name="T:Biomatic.Version">
+            <summary>Version - retrieved at compile from Biomatic.version</summary>
+        </member>
+        <member name="F:Biomatic.Version.major">
+            <summary>Major revision</summary>
+        </member>
+        <member name="F:Biomatic.Version.minor">
+            <summary>Minor revision</summary>
+        </member>
+        <member name="F:Biomatic.Version.patch">
+            <summary>Patch revision</summary>
+        </member>
+        <member name="F:Biomatic.Version.build">
+            <summary>Build revision</summary>
+        </member>
+        <member name="F:Biomatic.Version.Number">
+            <summary>Version String const</summary>
+        </member>
+        <member name="F:Biomatic.Version.Text">
+            <summary>Text Version String const</summary>
+        </member>
+        <member name="F:Biomatic.Version.SText">
+            <summary>Plain Text Version String const</summary>
+        </member>
+    </members>
+</doc>
